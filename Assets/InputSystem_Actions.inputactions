@@ -88,9 +88,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "switch",
+                    "name": "Switch",
                     "type": "Button",
-                    "id": "f02bc403-1119-4e04-9f66-422c8ee7de05",
+                    "id": "3fd62160-76f1-495e-8b4d-8ee3dc82d099",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -419,6 +419,28 @@
                 },
                 {
                     "name": "",
+                    "id": "8ef94c56-8542-4f50-977a-0f7884472af0",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ae91430-6c65-405e-b8a2-c18f7781429a",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1534dc16-a6aa-499d-9c3a-22b47347b52a",
                     "path": "<Keyboard>/1",
                     "interactions": "",
@@ -480,17 +502,6 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "50c608dd-d304-4527-829c-e236b9e955fb",
-                    "path": "<Keyboard>/tab",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "switch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
