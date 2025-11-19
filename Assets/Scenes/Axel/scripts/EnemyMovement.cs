@@ -15,17 +15,11 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        if (this.gameObject.transform == pointB)
-        {
-            pointB = pointA.transform;
-        }
-
-
         // Move toward the current target
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, speed * Time.deltaTime);
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         // Switch target when reaching a trigger
         if (other.CompareTag("pointA"))
@@ -35,7 +29,8 @@ public class EnemyMovement : MonoBehaviour
         }
         else if (other.CompareTag("pointB"))
         {
-            pointB = pointA;
+            Debug.Log("womps");
+            currentTarget = pointA;
         }
     }
 }
