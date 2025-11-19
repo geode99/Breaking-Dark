@@ -18,7 +18,8 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer fireflySR;
 
     private bool isWizard = true;
-    private bool isGrounded = true;
+    private bool isJump = false;
+    public WizardBoxCollider WizardBoxColliderReference;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isJump = WizardBoxColliderReference.isJumping;
         rb2d.linearVelocityX = _movement;
 
         float horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -41,7 +43,6 @@ public class PlayerMovement : MonoBehaviour
         {
             playerSR.flipX = true;
         }
-        isGrounded = WizardBoxColliderReference.isGrounded;
     }
 
 
@@ -51,9 +52,13 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1 && isGrounded())
+        if (ctx.ReadValue<float>() == 1)
         {
-            rb2d.linearVelocityY = jumpForce;
+            if (isJump == false || isWizard == false)
+            {
+                rb2d.linearVelocityY = jumpForce;
+                isJump = true;
+            }
         }
     }
 

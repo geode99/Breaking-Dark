@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class WizardBoxCollider : MonoBehaviour
 {
-    private BoxCollider2D boxColl;
-    [SerializeField] LayerMask jumpableGround;
+    public bool isJumping = false;
+    private Rigidbody2D rb2d;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        boxColl = GetComponent<BoxCollider2D>();
+        rb2d = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -15,8 +15,11 @@ public class WizardBoxCollider : MonoBehaviour
     {
 
     }
-    private bool isGrounded()
+    private void oncollisionEnter2D(Collision2D collision)
     {
-        return Physics2D.BoxCast(boxColl.bounds.center, boxColl.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+        if (collision.contacts[0].point.y < transform.position.y)
+        {
+            isJumping = false;
+        }
     }
 }
