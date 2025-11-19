@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     public float wizardJumpForce = 15.0f;
     public float fireflyJumpForce = 8.0f;
     private float _movement;
-    private bool tab = false;
 
     private Rigidbody2D rb2d;
     public Rigidbody2D firefly;
@@ -19,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer fireflySR;
 
     private bool isWizard = true;
+    private bool isGrounded = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,7 +41,9 @@ public class PlayerMovement : MonoBehaviour
         {
             playerSR.flipX = true;
         }
+        isGrounded = WizardBoxColliderReference.isGrounded;
     }
+
 
     public void Move(InputAction.CallbackContext ctx)
     {
@@ -49,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1)
+        if (ctx.ReadValue<float>() == 1 && isGrounded())
         {
             rb2d.linearVelocityY = jumpForce;
         }
@@ -57,23 +59,22 @@ public class PlayerMovement : MonoBehaviour
 
     public void Switch(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1)
+        if (ctx.ReadValue<float>() == 0)
         {
-            tab = !tab;
-            Debug.Log("switched");
-            if (tab)
+            isWizard = !isWizard;
+            if (isWizard)
             {
+                Debug.Log("wizard");
                 rb2d = wizard;
                 playerSR = wizardSR;
-                jumpForce = wizardJumpForce;
-                isWizard = true;
+                jumpForce = wizardJumpForce;     
             }
-            else if (tab == false)
+            else if (isWizard == false)
             {
+                Debug.Log("firefly");
                 rb2d = firefly;
                 playerSR = fireflySR;
                 jumpForce = fireflyJumpForce;
-                isWizard = false;
             }
         }
     }
