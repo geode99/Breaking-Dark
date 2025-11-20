@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 61589f16f645c35459ba257630dbfb5f
+guid: 26836cd3bc968e54a9ddabf32030a093
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cystal_yellow_0: -1767122536950804312
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

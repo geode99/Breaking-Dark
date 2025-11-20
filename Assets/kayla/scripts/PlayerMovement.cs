@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer fireflySR;
 
     private bool isWizard = true;
-    private bool isJump = false;
+    public bool isJump = false;
     public WizardBoxCollider WizardBoxColliderReference;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -52,12 +52,12 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1)
+        if (ctx.ReadValue<float>() == 0)
         {
-            if (isJump == false || isWizard == false)
+            if (isJump || isWizard == false)
             {
-                rb2d.linearVelocityY = jumpForce;
                 isJump = true;
+                rb2d.linearVelocityY = jumpForce;
             }
         }
     }
