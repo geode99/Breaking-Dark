@@ -18,7 +18,13 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer fireflySR;
 
     private bool isWizard = true;
-    private bool isGrounded = true;
+    public bool isGrounded;
+
+    public Transform boxCastOrigin;
+    public Vector3 boxCastOffset;
+    public Vector2 boxCastSize;
+    public LayerMask groundLayer;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,7 +47,14 @@ public class PlayerMovement : MonoBehaviour
         {
             playerSR.flipX = true;
         }
-        isGrounded = WizardBoxColliderReference.isGrounded;
+
+        isGrounded= Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(boxCastOrigin.position + boxCastOffset, boxCastSize);
     }
 
 
@@ -51,9 +64,12 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1 && isGrounded())
+        if (ctx.ReadValue<float>() == 1)
         {
-            rb2d.linearVelocityY = jumpForce;
+            if (isGrounded == true || isWizard == false)
+            {
+                rb2d.linearVelocityY = jumpForce;
+            }
         }
     }
 
