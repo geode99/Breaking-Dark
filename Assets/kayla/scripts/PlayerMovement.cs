@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer wizardSR;
     public SpriteRenderer fireflySR;
 
-    private bool isWizard = true;
+    public bool isWizard = true;
     public bool isGrounded;
 
     public Transform boxCastOrigin;
