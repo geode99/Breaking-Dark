@@ -4,18 +4,20 @@ public class CameraCenter : MonoBehaviour
 {
     public GameObject wizard;
     public GameObject firefly;
-    public Vector2 center;
-    private GameObject camera;
+    public float centerx;
+    public float centery;
+    private Transform camera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        camera = GetComponent<GameObject>();
+        camera = GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        center = (wizard.transform.position + firefly.transform.position) / 2;
-        camera.transform.position = new Vector2(center.x, center.y);
+        centerx = (wizard.transform.position.x + firefly.transform.position.x) / 2;
+        centery = (wizard.transform.position.y + firefly.transform.position.y) / 2;
+        camera.position = new Vector2(centerx, centery);
     }
 }
