@@ -25,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 boxCastSize;
     public LayerMask groundLayer;
 
+    public bool isFireflyOn = true;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -56,12 +58,12 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCastOrigin.position + boxCastOffset, boxCastSize);
     }
-
-
+   
     public void Move(InputAction.CallbackContext ctx)
     {
         _movement = ctx.ReadValue<Vector2>().x * speed;
     }
+    
     public void Jump(InputAction.CallbackContext ctx)
     {
         if (ctx.ReadValue<float>() == 1)
@@ -100,6 +102,14 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 1 && isWizard == false)
         {
             rb2d.linearVelocityY = -jumpForce;
+        }
+    }
+
+    public void OnOff(InputAction.CallbackContext ctx)
+    {
+        if (ctx.ReadValue<float>() == 0)
+        {
+            isFireflyOn = !isFireflyOn;
         }
     }
 }

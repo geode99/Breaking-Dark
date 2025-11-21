@@ -247,7 +247,7 @@ Transform:
   m_GameObject: {fileID: 968735053}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.82, y: -4.58, z: 0}
+  m_LocalPosition: {x: 8.4, y: -4.28, z: 0}
   m_LocalScale: {x: 5.6902833, y: 7.489455, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -272,6 +272,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isJumping: 0
   PlayerMovementReference: {fileID: 0}
+--- !u!114 &1493638454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1383090020079559911, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+  m_PrefabInstance: {fileID: 2751323140901264474}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885d599dbd2d7c441a54f030a1efb844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1626707742
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +464,48 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1652503593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1727780932412367375, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+  m_PrefabInstance: {fileID: 2751323140901264474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1652503597
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652503593}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2cbab021f7f71414fbe43a7df1fb2f08, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1652503598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652503593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffcc27e2bbadf3e4d8d1223e3a2d602e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireflyAnimator: {fileID: 1652503597}
+  isFireflyOn: 1
+  playerMovementReference: {fileID: 1493638454}
 --- !u!1001 &2751323140901264474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -461,6 +514,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 847032278384765363, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3913654224700340602, guid: 5debc98e008c8f34f86b2a83e6f5d201, type: 3}
     - target: {fileID: 1383090020079559911, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       propertyPath: boxCastOrigin
       value: 
@@ -504,6 +561,46 @@ PrefabInstance:
     - target: {fileID: 2824691973460480923, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_ActionId
+      value: 0e377cb8-fc11-428f-a1f7-53ea460f1376
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_ActionName
+      value: 'Player/onOff[/Keyboard/o]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1493638454}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnOff
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540804052887582323, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_ActionEvents.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4005771742564814601, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       propertyPath: m_LocalPosition.x
@@ -556,6 +653,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4202735386153459680, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1325638445}
+    - targetCorrespondingSourceObject: {fileID: 1727780932412367375, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1652503597}
+    - targetCorrespondingSourceObject: {fileID: 1727780932412367375, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1652503598}
   m_SourcePrefab: {fileID: 100100000, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
 --- !u!4 &2751323140901264475 stripped
 Transform:
