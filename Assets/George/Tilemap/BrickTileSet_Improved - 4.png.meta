@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 0cd99338559db764ab24415d9b40a3a8
+guid: 4df5726d95e54114e8d0b2f11ee55333
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1082694532637222108
-    second: househouse_0
+      213: 4589059770087297281
+    second: BrickTileSet_Improved - 4_0
+  - first:
+      213: -9177468453331793378
+    second: BrickTileSet_Improved - 4_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,23 +129,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: househouse_0
+      name: BrickTileSet_Improved - 4_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 474
-        height: 441
+        y: 600
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd4691ae0f0860f00800000000000000
-      internalID: 1082694532637222108
+      spriteID: 1d9b4bcaa9b7c3a479dc9ba2088f5c6b
+      internalID: -1620114724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTileSet_Improved - 4_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25a0d2dece22d64e9ddb02ae8223f5b
+      internalID: 1122893157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTileSet_Improved - 4_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866d383e21d7036429a91e165a8dbf08
+      internalID: 1451977637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTileSet_Improved - 4_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2364b6c805bd8448bc8d2498de4435b
+      internalID: -641154550
       vertices: []
       indices: 
       edges: []
@@ -151,7 +220,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1c16287adb10b1144802466c0bd7ea34
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +230,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      househouse_0: 1082694532637222108
+      BrickTileSet_Improved - 4_0: -1620114724
+      BrickTileSet_Improved - 4_1: 1122893157
+      BrickTileSet_Improved - 4_2: 1451977637
+      BrickTileSet_Improved - 4_3: -641154550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
