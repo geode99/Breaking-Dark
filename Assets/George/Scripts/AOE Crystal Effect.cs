@@ -5,6 +5,9 @@ public class AOECrystalEffect : MonoBehaviour
 {
     public PlayerHealths hp;
     public PlayerMovement IsWiz;
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,7 +24,8 @@ public class AOECrystalEffect : MonoBehaviour
             if(IsWiz.isWizard)
             {
                 hp.FireflyHealth--;
-            }else{ 
+            }
+            else{ 
                 hp.ShadyHealth++;
             }
         }
