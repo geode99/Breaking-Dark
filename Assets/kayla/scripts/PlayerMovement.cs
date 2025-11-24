@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float wizardJumpForce = 15.0f;
     public float fireflyJumpForce = 8.0f;
     private float _movement;
+    public float dashForce = 10.0f;
 
     private Rigidbody2D rb2d;
     public Rigidbody2D firefly;
@@ -110,6 +111,23 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 0)
         {
             isFireflyOn = !isFireflyOn;
+        }
+    }
+
+    public void Dash(InputAction.CallbackContext ctx)
+    {
+        if (ctx.ReadValue<float>() == 0)
+        {
+            if (playerSR.flipX == false)
+            {
+                Debug.Log("dash right");
+                rb2d.linearVelocityX += dashForce;
+            }
+            else if (playerSR.flipX == true)
+            {
+                Debug.Log("dash left");
+                rb2d.linearVelocityX -= dashForce;
+            }            
         }
     }
 }
