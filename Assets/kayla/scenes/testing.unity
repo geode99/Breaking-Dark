@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &333587032 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6120219105793679953, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-  m_PrefabInstance: {fileID: 8768358366579196438}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &495105046
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,46 +655,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1325638440 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1031399509888085240, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-  m_PrefabInstance: {fileID: 8768358366579196438}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1493638454 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2824567277640931327, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-  m_PrefabInstance: {fileID: 8768358366579196438}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333587032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 885d599dbd2d7c441a54f030a1efb844, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1493638462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333587032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36dee59373e6bca40b45ff7d984ba5ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wizard: {fileID: 1325638440}
-  firefly: {fileID: 1652503593}
-  centerx: 0
-  centery: 0
-  camera: {fileID: 1963525771}
-  zoom: 5
-  maxZoom: 10
-  minZoom: 5
-  xmax: 18.6
-  ymax: 5
-  CameraSpeed: 5
-  playerMovementReference: {fileID: 1493638454}
 --- !u!1 &1549687447
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,52 +876,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1652503593 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2592127697650045207, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-  m_PrefabInstance: {fileID: 8768358366579196438}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &1652503602
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652503593}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.021304995, y: 0.107949406}
-  m_Radius: 0.3764669
---- !u!20 &1963525771 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 5008456174991380834, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-  m_PrefabInstance: {fileID: 8768358366579196438}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2008061573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,17 +1062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7429780884955066434, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6120219105793679953, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1493638462}
-    - targetCorrespondingSourceObject: {fileID: 2592127697650045207, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1652503602}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
