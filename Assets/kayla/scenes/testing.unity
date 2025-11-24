@@ -698,6 +698,7 @@ MonoBehaviour:
   minZoom: 5
   xmax: 18.6
   ymax: 5
+  CameraSpeed: 5
   playerMovementReference: {fileID: 1493638454}
 --- !u!1 &1549687447
 GameObject:
@@ -994,7 +995,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e08df8c8e0dc84b49a3b56120938e60c, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1152,7 +1153,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7429780884955066434, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
