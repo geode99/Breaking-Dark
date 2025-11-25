@@ -8,7 +8,9 @@ public class PlayerMovement : MonoBehaviour
     public float wizardJumpForce = 15.0f;
     public float fireflyJumpForce = 8.0f;
     private float _movement;
+    private Vector2 _movementVector;
     public float dashForce = 10.0f;
+    private float currentMovementSpeed;
 
     private Rigidbody2D rb2d;
     public Rigidbody2D firefly;
@@ -27,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
 
     public bool isFireflyOn = true;
+    private bool isDashing = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         rb2d = wizard;
         playerSR = wizardSR;
         jumpForce = wizardJumpForce;
+        currentMovementSpeed = speed;
     }
 
     // Update is called once per frame
@@ -45,13 +49,26 @@ public class PlayerMovement : MonoBehaviour
         if (horizontalInput > 0)
         {
             playerSR.flipX = false;
+            //isFacingRight = true;
         }
         else if (horizontalInput < 0)
         {
             playerSR.flipX = true;
+            //isFacingRight = false;
         }
 
         isGrounded= Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
+
+        if(isDashing == false)
+        {
+            currentMovementSpeed = speed;
+        }
+
+        if(isWizard == false)
+        {
+            rb2d.linearVelocity = _movementVector * speed;
+        }
+
     }
 
     private void OnDrawGizmos()
@@ -62,9 +79,16 @@ public class PlayerMovement : MonoBehaviour
    
     public void Move(InputAction.CallbackContext ctx)
     {
-        _movement = ctx.ReadValue<Vector2>().x * speed;
+        if (isWizard)
+        {
+            _movement = ctx.ReadValue<Vector2>().x * currentMovementSpeed;
+        }
+        if (isWizard == false)
+        {
+            _movementVector = ctx.ReadValue<Vector2>();
+        }
     }
-    
+
     public void Jump(InputAction.CallbackContext ctx)
     {
         if (ctx.ReadValue<float>() == 1)
@@ -98,14 +122,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Down(InputAction.CallbackContext ctx)
-    {
-        if (ctx.ReadValue<float>() == 1 && isWizard == false)
-        {
-            rb2d.linearVelocityY = -jumpForce;
-        }
-    }
-
     public void OnOff(InputAction.CallbackContext ctx)
     {
         if (ctx.ReadValue<float>() == 0)
@@ -116,19 +132,14 @@ public class PlayerMovement : MonoBehaviour
 
     public void Dash(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 0)
+        if (ctx.ReadValue<float>() == 1)
         {
-            float horizontalInput = Input.GetAxisRaw("Horizontal");
-            if (horizontalInput > 0)
-            {
-                Debug.Log("dash right");
-                rb2d.linearVelocityX += dashForce;
-            }
-            else if (horizontalInput < 0)
-            {
-                Debug.Log("dash left");
-                rb2d.linearVelocityX -= dashForce;
-            }            
+            isDashing = true;
+            currentMovementSpeed = dashForce;
+        }
+        if (ctx.ReadValue<float>() == 0)
+        {            
+            isDashing = false;
         }
     }
 }
