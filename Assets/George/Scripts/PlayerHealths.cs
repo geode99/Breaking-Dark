@@ -13,9 +13,17 @@ public class PlayerHealths : MonoBehaviour
     void Update(){
         if(FireflyHealth < 0){
             ShadyHealth += FireflyHealth;
+            FireflyHealth = 0;
         }  
         if(ShadyHealth < 0){
             FireflyHealth += ShadyHealth;
+            ShadyHealth = 0;
+        }
+        if(ShadyHealth > 100f){
+            ShadyHealth = 100f;
+        }
+        if(FireflyHealth > 100f){
+            FireflyHealth = 100f;
         }
     }
 }
