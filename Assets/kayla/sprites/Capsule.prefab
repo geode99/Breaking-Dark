@@ -490,6 +490,106 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.021304995, y: 0.107949406}
   m_Radius: 0.3764669
+--- !u!1 &4942181886123743041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099983608050064006}
+  - component: {fileID: 986713181397217281}
+  - component: {fileID: 3484001311433311132}
+  - component: {fileID: 6150001333552984946}
+  m_Layer: 0
+  m_Name: Crystal Damage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1099983608050064006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942181886123743041}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 257837538132081681}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &986713181397217281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942181886123743041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8656c41cb76482643b32a7fe9e305782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drain: 4
+  hp: {fileID: 2144129313810166268}
+  IsWiz: {fileID: 2824567277640931327}
+--- !u!114 &3484001311433311132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942181886123743041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1baea3ca2cb54ab49a9b07caf13d1e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 1031399509888085240}
+  firefly: {fileID: 2592127697650045207}
+  IsWiz: {fileID: 2824567277640931327}
+--- !u!58 &6150001333552984946
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942181886123743041}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.15
 --- !u!1 &6120219105793679953
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +606,7 @@ GameObject:
   - component: {fileID: 2824567277640931327}
   - component: {fileID: 369347346844124523}
   - component: {fileID: 765604371156133819}
+  - component: {fileID: 2144129313810166268}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -529,6 +630,7 @@ Transform:
   - {fileID: 7145237809204471484}
   - {fileID: 2932693395146248607}
   - {fileID: 1382617801369477251}
+  - {fileID: 1099983608050064006}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1434542066536389999
@@ -918,3 +1020,17 @@ MonoBehaviour:
   ymax: 5
   CameraSpeed: 5
   playerMovementReference: {fileID: 2824567277640931327}
+--- !u!114 &2144129313810166268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6120219105793679953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9442873edff064393765ddf8fe9067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShadyHealth: 100
+  FireflyHealth: 100

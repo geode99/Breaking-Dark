@@ -206,6 +206,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &207531042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1031399509888085240, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+  m_PrefabInstance: {fileID: 262577640}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &262577640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,6 +219,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 257837538132081681, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.63
+      objectReference: {fileID: 0}
     - target: {fileID: 4005771742564814601, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.63
@@ -260,11 +269,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6120219105793679953, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 257837538132081681, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 262577644}
+      addedObject: {fileID: 1176806206}
+    m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6120219105793679953, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 262577643}
@@ -299,13 +308,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadyHealth: 100
   FireflyHealth: 100
---- !u!114 &262577644
+--- !u!4 &262577651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 257837538132081681, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+  m_PrefabInstance: {fileID: 262577640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &625480087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2592127697650045207, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
+  m_PrefabInstance: {fileID: 262577640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1176806205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1176806206}
+  - component: {fileID: 1176806209}
+  - component: {fileID: 1176806208}
+  - component: {fileID: 1176806207}
+  m_Layer: 0
+  m_Name: Crystal Damage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1176806206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176806205}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 262577651}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1176806207
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176806205}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.15
+--- !u!114 &1176806208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262577641}
+  m_GameObject: {fileID: 1176806205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1baea3ca2cb54ab49a9b07caf13d1e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 207531042}
+  firefly: {fileID: 625480087}
+  IsWiz: {fileID: 262577642}
+--- !u!114 &1176806209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176806205}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8656c41cb76482643b32a7fe9e305782, type: 3}
@@ -326,7 +430,7 @@ GameObject:
   - component: {fileID: 1439536109}
   m_Layer: 0
   m_Name: cystal_purple_0
-  m_TagString: Untagged
+  m_TagString: BadCrystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1488,7 +1592,7 @@ GameObject:
   - component: {fileID: 1983908625}
   m_Layer: 0
   m_Name: cystal_yellow_0
-  m_TagString: Untagged
+  m_TagString: GoodCrystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
