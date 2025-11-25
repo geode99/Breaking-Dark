@@ -118,12 +118,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ctx.ReadValue<float>() == 0)
         {
-            if (playerSR.flipX == false)
+            float horizontalInput = Input.GetAxisRaw("Horizontal");
+            if (horizontalInput > 0)
             {
                 Debug.Log("dash right");
                 rb2d.linearVelocityX += dashForce;
             }
-            else if (playerSR.flipX == true)
+            else if (horizontalInput < 0)
             {
                 Debug.Log("dash left");
                 rb2d.linearVelocityX -= dashForce;
