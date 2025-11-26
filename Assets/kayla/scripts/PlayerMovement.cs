@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.HID;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -31,6 +32,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isFireflyOn = true;
     private bool isDashing = false;
 
+    //HUD Stuff
+    public Animator Hud;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -44,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb2d.linearVelocityX = _movement;
-
+        Hud.SetBool("IsWiz", isWizard);
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         if (horizontalInput > 0)
         {
