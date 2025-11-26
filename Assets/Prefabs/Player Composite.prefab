@@ -788,7 +788,7 @@ MonoBehaviour:
   speed: 10
   wizardJumpForce: 15
   fireflyJumpForce: 8
-  dashForce: 15
+  dashForce: 20
   firefly: {fileID: 1979121121717795384}
   wizard: {fileID: 4372952311085018647}
   wizardSR: {fileID: 1336955509330541367}
@@ -943,22 +943,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 3fd62160-76f1-495e-8b4d-8ee3dc82d099
     m_ActionName: 'Player/Switch[/Keyboard/tab]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2824567277640931327}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: Down
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: b546290a-67ef-4833-ae71-dce0e1059002
-    m_ActionName: 'Player/down[/Keyboard/downArrow]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2824567277640931327}
