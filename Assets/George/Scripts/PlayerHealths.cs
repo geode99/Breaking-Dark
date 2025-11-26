@@ -1,9 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealths : MonoBehaviour
 {
     public float ShadyHealth = 100f;
     public float FireflyHealth = 100f;
+
+    public Image LightBar;
+    public Image HealthBar;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
         
@@ -25,5 +29,7 @@ public class PlayerHealths : MonoBehaviour
         if(FireflyHealth > 100f){
             FireflyHealth = 100f;
         }
+        LightBar.fillAmount = FireflyHealth/100;
+        HealthBar.fillAmount = ShadyHealth/100;
     }
 }

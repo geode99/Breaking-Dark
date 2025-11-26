@@ -28,12 +28,16 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isFireflyOn = true;
 
+    //HUD addition to show which character is active
+    public Animator Hud;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb2d = wizard;
         playerSR = wizardSR;
         jumpForce = wizardJumpForce;
+
     }
 
     // Update is called once per frame
@@ -50,8 +54,8 @@ public class PlayerMovement : MonoBehaviour
         {
             playerSR.flipX = true;
         }
-
-        isGrounded= Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
+        Hud.SetBool("IsWiz", isWizard);
+        isGrounded = Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
     }
 
     private void OnDrawGizmos()
@@ -86,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("wizard");
                 rb2d = wizard;
                 playerSR = wizardSR;
-                jumpForce = wizardJumpForce;     
+                jumpForce = wizardJumpForce;
             }
             else if (isWizard == false)
             {
