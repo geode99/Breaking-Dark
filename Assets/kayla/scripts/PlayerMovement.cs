@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(isWizard == false)
         {
-            rb2d.linearVelocity = _movementVector * speed;
+            rb2d.linearVelocity = _movementVector;
         }
 
     }
@@ -89,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (isWizard == false)
         {
-            _movementVector = ctx.ReadValue<Vector2>();
+            _movementVector = ctx.ReadValue<Vector2>() * currentMovementSpeed;
         }
     }
 
@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 1)
         {
             isDashing = true;
-            currentMovementSpeed = dashForce;
+            currentMovementSpeed += dashForce;
         }
         if (ctx.ReadValue<float>() == 0)
         {            
