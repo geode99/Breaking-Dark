@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.HID;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -35,6 +36,12 @@ public class PlayerMovement : MonoBehaviour
     //HUD Stuff
     public Animator Hud;
 
+    //Health Script
+    public PlayerHealths hp;
+    public float drainAmount = 1f;
+
+    //Light Script
+    public Light2D fireflylight;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,11 +49,16 @@ public class PlayerMovement : MonoBehaviour
         playerSR = wizardSR;
         jumpForce = wizardJumpForce;
         currentMovementSpeed = speed;
+        fireflylight = GetComponent<Light2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!isWizard && isFireflyOn) { 
+            hp.FireflyHealth -= Time.deltaTime * drainAmount;
+        }
+        ;
         rb2d.linearVelocityX = _movement;
         Hud.SetBool("IsWiz", isWizard);
         float horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -131,6 +143,7 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 0)
         {
             isFireflyOn = !isFireflyOn;
+            
         }
     }
 
