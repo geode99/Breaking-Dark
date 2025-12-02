@@ -273,28 +273,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27eeea2962e08e64b88f7d90078dc0bd, type: 3}
---- !u!114 &194841197 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1150354108415225404, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-  m_PrefabInstance: {fileID: 8768358366579196438}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &246390780 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2144129313810166268, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-  m_PrefabInstance: {fileID: 8768358366579196438}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c9442873edff064393765ddf8fe9067, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &333559396
 GameObject:
   m_ObjectHideFlags: 0
@@ -59793,46 +59771,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1150354108415225404, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_Color.b
-      value: 0.482
-      objectReference: {fileID: 0}
-    - target: {fileID: 1150354108415225404, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_Color.g
-      value: 0.8797621
-      objectReference: {fileID: 0}
-    - target: {fileID: 1150354108415225404, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1150354108415225404, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_Intensity
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1150354108415225404, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_PointLightInnerRadius
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1382617801369477251, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1382617801369477251, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1382617801369477251, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1382617801369477251, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 1382617801369477251, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2144129313810166268, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       propertyPath: LightBar
       value: 
@@ -59842,25 +59780,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1256536515}
     - target: {fileID: 2824567277640931327, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: hp
-      value: 
-      objectReference: {fileID: 246390780}
-    - target: {fileID: 2824567277640931327, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       propertyPath: Hud
       value: 
       objectReference: {fileID: 1491912496}
-    - target: {fileID: 2824567277640931327, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: dashForce
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2824567277640931327, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: fireflylight
-      value: 
-      objectReference: {fileID: 194841197}
-    - target: {fileID: 4594263897026452139, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 7025713806295396592, guid: 4cb0b196b5c42d546ac5a519b28d090d, type: 3}
     - target: {fileID: 6120219105793679953, guid: fb71c283eedc35b4cbe65ba06db52c67, type: 3}
       propertyPath: m_Name
       value: Capsule
