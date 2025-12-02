@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5ec1acc91b578aa42917e20e6983068b
+guid: f360ea5572931d0499fa270b01ef1317
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7740245446598272682
-    second: CY5_0
+      213: 4282074304092755320
+    second: crystal6_purple_transparent_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CY5_0
+      name: crystal6_purple_transparent_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 300
-        height: 300
+        x: 80
+        y: 44
+        width: 129
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa623de5930ea6b60800000000000000
-      internalID: 7740245446598272682
+      spriteID: 875d64564ebfc6b30800000000000000
+      internalID: 4282074304092755320
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CY5_0: 7740245446598272682
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
