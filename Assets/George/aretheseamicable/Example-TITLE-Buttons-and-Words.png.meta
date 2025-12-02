@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Example-TITLE-Buttons-and-Words_0: -699490168794866787
+      Example-TITLE-Buttons-and-Words_1: -573721237986537363
+      Example-TITLE-Buttons-and-Words_2: 7716006139609778983
+      Example-TITLE-Buttons-and-Words_3: -7782082588677939297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

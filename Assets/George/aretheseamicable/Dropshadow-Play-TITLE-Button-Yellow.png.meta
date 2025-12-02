@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dropshadow-Play-TITLE-Button-Yellow_0: 1627089316295173580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

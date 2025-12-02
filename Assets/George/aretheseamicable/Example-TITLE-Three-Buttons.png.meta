@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Example-TITLE-Three-Buttons_0: 6270610499243347251
+      Example-TITLE-Three-Buttons_1: -1718326076590009126
+      Example-TITLE-Three-Buttons_2: -6924937525637524338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

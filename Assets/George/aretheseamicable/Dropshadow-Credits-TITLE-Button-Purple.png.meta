@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dropshadow-Credits-TITLE-Button-Purple_0: 7110290981310468314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
