@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 3000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,10 +150,10 @@ TextureImporter:
       name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_0
       rect:
         serializedVersion: 2
-        x: 790
-        y: 5934
-        width: 1578
-        height: 1042
+        x: 0
+        y: 5010
+        width: 2880
+        height: 2505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_1
       rect:
         serializedVersion: 2
-        x: 3114
-        y: 5956
-        width: 2248
-        height: 680
+        x: 2880
+        y: 5010
+        width: 2880
+        height: 2505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_2
       rect:
         serializedVersion: 2
-        x: 6556
-        y: 5617
-        width: 1590
-        height: 1202
+        x: 5760
+        y: 5010
+        width: 2880
+        height: 2505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_3
       rect:
         serializedVersion: 2
-        x: 6022
-        y: 4977
-        width: 9
-        height: 10
+        x: 0
+        y: 2505
+        width: 2880
+        height: 2505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_4
       rect:
         serializedVersion: 2
-        x: 792
-        y: 3002
-        width: 1583
-        height: 1443
+        x: 2880
+        y: 2505
+        width: 2880
+        height: 2505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_5
       rect:
         serializedVersion: 2
-        x: 3361
-        y: 3428
-        width: 1896
-        height: 971
+        x: 5760
+        y: 2505
+        width: 2880
+        height: 2505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_6
       rect:
         serializedVersion: 2
-        x: 6169
-        y: 3571
-        width: 1973
-        height: 688
+        x: 0
+        y: 0
+        width: 2880
+        height: 2505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,33 +300,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_7
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 863
-        width: 1677
-        height: 952
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e49f45f8d051b630800000000000000
-      internalID: 3941020041684686048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 06f128ed4abdcb1468b45c1128c1ac91
     internalID: 0
     vertices: []
     indices: 
@@ -335,7 +313,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_0: 5079525353605692885
+      M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_1: -2994414405421987253
+      M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_2: 8507002965111869298
+      M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_3: 756358527375245725
+      M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_4: -6071833875202507856
+      M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_5: 3855985700687108814
+      M_BROWN_ BUG SPRITE IDLE SPRITE SHEET_6: 7068949373140642753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

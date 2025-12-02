@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 3000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,10 +147,10 @@ TextureImporter:
       name: M_BROWN SPRITE GLOW SPRITE SHEET_0
       rect:
         serializedVersion: 2
-        x: 570
-        y: 6281
-        width: 1587
-        height: 1103
+        x: 0
+        y: 5424
+        width: 2880
+        height: 2712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: M_BROWN SPRITE GLOW SPRITE SHEET_1
       rect:
         serializedVersion: 2
-        x: 3291
-        y: 6301
-        width: 2015
-        height: 910
+        x: 2880
+        y: 5424
+        width: 2880
+        height: 2712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: M_BROWN SPRITE GLOW SPRITE SHEET_2
       rect:
         serializedVersion: 2
-        x: 6212
-        y: 6343
-        width: 2055
-        height: 915
+        x: 5760
+        y: 5424
+        width: 2880
+        height: 2712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: M_BROWN SPRITE GLOW SPRITE SHEET_3
       rect:
         serializedVersion: 2
-        x: 545
-        y: 3125
-        width: 1600
-        height: 1537
+        x: 0
+        y: 2712
+        width: 2880
+        height: 2712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: M_BROWN SPRITE GLOW SPRITE SHEET_4
       rect:
         serializedVersion: 2
-        x: 3451
-        y: 3125
-        width: 1592
-        height: 1479
+        x: 2880
+        y: 2712
+        width: 2880
+        height: 2712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: M_BROWN SPRITE GLOW SPRITE SHEET_5
       rect:
         serializedVersion: 2
-        x: 6090
-        y: 3367
-        width: 2042
-        height: 1167
+        x: 5760
+        y: 2712
+        width: 2880
+        height: 2712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: M_BROWN SPRITE GLOW SPRITE SHEET_6
       rect:
         serializedVersion: 2
-        x: 404
-        y: 775
-        width: 1941
-        height: 913
+        x: 0
+        y: 0
+        width: 2880
+        height: 2712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 15be377a6c9c9b34995327d37119e849
     internalID: 0
     vertices: []
     indices: 
@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      M_BROWN SPRITE GLOW SPRITE SHEET_0: 7025713806295396592
+      M_BROWN SPRITE GLOW SPRITE SHEET_1: 7900966890293728903
+      M_BROWN SPRITE GLOW SPRITE SHEET_2: 3185525587129399407
+      M_BROWN SPRITE GLOW SPRITE SHEET_3: 2777832257363770034
+      M_BROWN SPRITE GLOW SPRITE SHEET_4: 5978247779052854624
+      M_BROWN SPRITE GLOW SPRITE SHEET_5: -5146667759889021074
+      M_BROWN SPRITE GLOW SPRITE SHEET_6: -7994271510344286287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
