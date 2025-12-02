@@ -332,9 +332,15 @@ Transform:
   m_GameObject: {fileID: 2592127697650045207}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -2.27, y: 0.29, z: 0}
   m_LocalScale: {x: 0.3419253, y: 0.3532236, z: 2.0833335}
   m_ConstrainProportionsScale: 0
+=======
+  m_LocalPosition: {x: -1.78, y: 1.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+>>>>>>> 21cbd2623a409b3043138b04c885f3a4c2acf3cb
   m_Children: []
   m_Father: {fileID: 257837538132081681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -382,7 +388,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3913654224700340602, guid: 5debc98e008c8f34f86b2a83e6f5d201, type: 3}
+  m_Sprite: {fileID: 7025713806295396592, guid: 4cb0b196b5c42d546ac5a519b28d090d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -509,8 +515,8 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.25
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Color: {r: 1, g: 0.8797621, b: 0.482, a: 1}
+  m_Intensity: 1.8
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -533,7 +539,7 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
+  m_PointLightInnerRadius: 4
   m_PointLightOuterRadius: 6
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
@@ -931,7 +937,7 @@ MonoBehaviour:
   speed: 10
   wizardJumpForce: 15
   fireflyJumpForce: 8
-  dashForce: 20
+  dashForce: 10
   firefly: {fileID: 1979121121717795384}
   wizard: {fileID: 4372952311085018647}
   wizardSR: {fileID: 1336955509330541367}
