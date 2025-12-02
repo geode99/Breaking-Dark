@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crystal6_purple_transparent_0: 4282074304092755320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
