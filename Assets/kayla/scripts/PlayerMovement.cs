@@ -49,7 +49,6 @@ public class PlayerMovement : MonoBehaviour
         playerSR = wizardSR;
         jumpForce = wizardJumpForce;
         currentMovementSpeed = speed;
-        fireflylight = GetComponent<Light2D>();
     }
 
     // Update is called once per frame
@@ -143,7 +142,7 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 0)
         {
             isFireflyOn = !isFireflyOn;
-            
+            fireflylight.enabled = !fireflylight.enabled;
         }
     }
 
