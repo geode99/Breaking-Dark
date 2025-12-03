@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 8623575637047803482}
   m_Layer: 0
   m_Name: wizard
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,7 +741,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 257837538132081681}
-  - component: {fileID: 1434542066536389999}
   - component: {fileID: 6519446362697215495}
   - component: {fileID: 8753529805894668254}
   - component: {fileID: 3361175464185014402}
@@ -750,6 +749,7 @@ GameObject:
   - component: {fileID: 765604371156133819}
   - component: {fileID: 2144129313810166268}
   - component: {fileID: 8639318748005074666}
+  - component: {fileID: 1360536762627453695}
   m_Layer: 0
   m_Name: Player Composite 1
   m_TagString: Untagged
@@ -777,18 +777,6 @@ Transform:
   - {fileID: 6751968923201797171}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1434542066536389999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6120219105793679953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e367faf1ffbe97f4ba66c5e1e8dafbf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &6519446362697215495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -947,6 +935,7 @@ MonoBehaviour:
     m_Bits: 8
   isFireflyOn: 1
   Hud: {fileID: 0}
+  pauseMenu: {fileID: 0}
   hp: {fileID: 2144129313810166268}
   drainAmount: 1
   fireflylight: {fileID: 1150354108415225404}
@@ -1136,15 +1125,51 @@ MonoBehaviour:
     m_ActionId: 39822c44-6ebb-49e9-9dd3-842f8e0d9f3d
     m_ActionName: 'Player/Dash[/Keyboard/shift]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2824567277640931327}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Pause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 7a61dc40-2ed2-4906-aaa8-6b2f627f4d42
     m_ActionName: 'Player/escape/menu[/Keyboard/escape]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1360536762627453695}
+        m_TargetAssemblyTypeName: HouseControls, Assembly-CSharp
+        m_MethodName: MTrigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: ddc8676b-4715-465d-9c65-17a13d74899d
     m_ActionName: 'Player/m trigger[/Keyboard/m]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1360536762627453695}
+        m_TargetAssemblyTypeName: HouseControls, Assembly-CSharp
+        m_MethodName: DTrigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: edc84d3c-2bee-439a-b7fb-1f9534fae8d8
     m_ActionName: 'Player/d trigger[/Keyboard/d]'
   m_NeverAutoSwitchControlSchemes: 0
@@ -1209,6 +1234,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerMovement: {fileID: 2824567277640931327}
+--- !u!114 &1360536762627453695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6120219105793679953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9160d036ba2d547b6af20fb823a987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M: 0
+  D: 0
 --- !u!1 &7286912770856555733
 GameObject:
   m_ObjectHideFlags: 0
