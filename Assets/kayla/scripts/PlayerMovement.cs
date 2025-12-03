@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
     //HUD Stuff
     public Animator Hud;
+    public Canvas pauseMenu;
 
     //Health Script
     public PlayerHealths hp;
@@ -49,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
         playerSR = wizardSR;
         jumpForce = wizardJumpForce;
         currentMovementSpeed = speed;
+        pauseMenu.enabled = false;
     }
 
     // Update is called once per frame
@@ -84,6 +86,14 @@ public class PlayerMovement : MonoBehaviour
             rb2d.linearVelocity = _movementVector;
         }
 
+        if (pauseMenu.enabled)
+        {
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
     }
 
     private void OnDrawGizmos()
@@ -156,6 +166,14 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 0)
         {            
             isDashing = false;
+        }
+    }
+
+    public void Pause(InputAction.CallbackContext ctx)
+    {
+        if (ctx.ReadValue<float>() == 1)
+        {
+            pauseMenu.enabled = true;
         }
     }
 }
