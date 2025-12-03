@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: b00aaa8f38a5c6543a4a4c9be657c62f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2563008766893191751
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_0
+  - first:
+      213: -8785486599513316140
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_1
+  - first:
+      213: 6127147695118994139
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_2
+  - first:
+      213: -5829308186782347275
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_3
+  - first:
+      213: -4190567115635960723
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_4
+  - first:
+      213: -7047501096997341648
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_5
+  - first:
+      213: -4911370322023579489
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_6
+  - first:
+      213: 8195683642071905046
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_7
+  - first:
+      213: 2123591060018534433
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_8
+  - first:
+      213: -576030476605366362
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_9
+  - first:
+      213: -525429816577904760
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_10
+  - first:
+      213: -6483529934025546097
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_11
+  - first:
+      213: 4836945568869294613
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_12
+  - first:
+      213: 6732425875451527712
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_13
+  - first:
+      213: 7746933870471262508
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_14
+  - first:
+      213: -6947375281757560930
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_15
+  - first:
+      213: 4525945845987097837
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_16
+  - first:
+      213: 3373575763810708799
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_17
+  - first:
+      213: -2675076999820722440
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_18
+  - first:
+      213: -5101461122435277394
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_19
+  - first:
+      213: 2056001696245054213
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_20
+  - first:
+      213: 8358648109047757266
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_21
+  - first:
+      213: 5905043234008139321
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_22
+  - first:
+      213: -4918073128624980084
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_23
+  - first:
+      213: 7354049491901042400
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_24
+  - first:
+      213: -6731179518908100536
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_25
+  - first:
+      213: -4898695278706701254
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_26
+  - first:
+      213: -357847818103433583
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_27
+  - first:
+      213: -388959517420135980
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_28
+  - first:
+      213: 3068260138965298420
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_29
+  - first:
+      213: 5854942235890184072
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_30
+  - first:
+      213: 243454212125186153
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_31
+  - first:
+      213: -1615885874625782669
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_32
+  - first:
+      213: -7301916866443494011
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_33
+  - first:
+      213: -5903149905059567665
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_34
+  - first:
+      213: 5516794124952125296
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_35
+  - first:
+      213: 4349765377106700618
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_36
+  - first:
+      213: 3543071076196462205
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_37
+  - first:
+      213: 7654725057975292736
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_38
+  - first:
+      213: 2331799156996099121
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_39
+  - first:
+      213: -3685386686026999596
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_40
+  - first:
+      213: 1131245257398333678
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_41
+  - first:
+      213: -8950467405590704876
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_42
+  - first:
+      213: -855444102212434523
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_43
+  - first:
+      213: -1915566026691993091
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_44
+  - first:
+      213: 4990761387180789006
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_45
+  - first:
+      213: -4269373068884347770
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_46
+  - first:
+      213: 7437633567735183946
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_47
+  - first:
+      213: 6062552444668637102
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_48
+  - first:
+      213: -7847857205912851152
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_49
+  - first:
+      213: 4885904919031119075
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_50
+  - first:
+      213: 1002302386364180854
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_51
+  - first:
+      213: -3920335919624218329
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_52
+  - first:
+      213: 5806207085124627082
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_53
+  - first:
+      213: -8164399942016684997
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_54
+  - first:
+      213: 3994623306260866443
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_55
+  - first:
+      213: -7406308657001612377
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_56
+  - first:
+      213: 5142522719657427270
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_57
+  - first:
+      213: -863859651420064838
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_58
+  - first:
+      213: 2420101695879132506
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_59
+  - first:
+      213: 175885628148686706
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_60
+  - first:
+      213: 7510630672257283936
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_61
+  - first:
+      213: -122793290402746554
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_62
+  - first:
+      213: -1454476013257006811
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_63
+  - first:
+      213: 8690685654090761135
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_64
+  - first:
+      213: 4961934094140312279
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_65
+  - first:
+      213: -4010424631038394995
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_66
+  - first:
+      213: -619633154032906992
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_67
+  - first:
+      213: 3692836243032460028
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_68
+  - first:
+      213: 3491350564229503648
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_69
+  - first:
+      213: -2560079224210149533
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_70
+  - first:
+      213: 8920973801275137426
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_71
+  - first:
+      213: 3238014791174678454
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_72
+  - first:
+      213: -6281619698515095207
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_73
+  - first:
+      213: 7115964539883767414
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_74
+  - first:
+      213: -6103324256611712432
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_75
+  - first:
+      213: 8564899800642238891
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_76
+  - first:
+      213: -3209005969310349755
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_77
+  - first:
+      213: -335401427877901075
+    second: M_BROWN BUG SPRITE DASH SPRITE SHEET_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd8e1d1b1d5e6cd0800000000000000
+      internalID: -2563008766893191751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2160
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4ed093c7ea31680800000000000000
+      internalID: -8785486599513316140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2160
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdacbed9d50080550800000000000000
+      internalID: 6127147695118994139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2160
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffcf80d6132a1fa0800000000000000
+      internalID: -5829308186782347275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 2160
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64d511396d18d5c0800000000000000
+      internalID: -4190567115635960723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0363c4f671f323e90800000000000000
+      internalID: -7047501096997341648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f908363b6be47dbb0800000000000000
+      internalID: -4911370322023579489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613fc2199daecb170800000000000000
+      internalID: 8195683642071905046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128999c51d2887d10800000000000000
+      internalID: 2123591060018534433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN BUG SPRITE DASH SPRITE SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 0
+        width: 2880
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af532e55578108f0800000000000000
+      internalID: -576030476605366362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d0b9e8f420a1f3942982d1d3ca1c87a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_0: -2563008766893191751
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_1: -8785486599513316140
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_2: 6127147695118994139
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_3: -5829308186782347275
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_4: -4190567115635960723
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_5: -7047501096997341648
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_6: -4911370322023579489
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_7: 8195683642071905046
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_8: 2123591060018534433
+      M_BROWN BUG SPRITE DASH SPRITE SHEET_9: -576030476605366362
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
