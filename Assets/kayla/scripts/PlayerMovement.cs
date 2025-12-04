@@ -33,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
     public bool isFireflyOn = true;
     private bool isDashing = false;
 
+    public HouseTriggerZone HouseTriggerZoneReference;
+    private bool inHouse = false;
+    public Canvas houseCanvas;
+
     //HUD Stuff
     public Animator Hud;
     public Canvas pauseMenu;
@@ -51,11 +55,13 @@ public class PlayerMovement : MonoBehaviour
         jumpForce = wizardJumpForce;
         currentMovementSpeed = speed;
         pauseMenu.enabled = false;
+        houseCanvas.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        inHouse = HouseTriggerZoneReference.inHouse;
         if (!isWizard && isFireflyOn) { 
             hp.FireflyHealth -= Time.deltaTime * drainAmount;
         }
@@ -171,9 +177,17 @@ public class PlayerMovement : MonoBehaviour
 
     public void Pause(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1)
+        if (ctx.ReadValue<float>() == 1 && inHouse == false)
         {
             pauseMenu.enabled = true;
+        }
+    }
+
+    public void EscapeHouse(InputAction.CallbackContext ctx)
+        {
+        if (ctx.ReadValue<float>() == 1 && inHouse == true)
+        {
+            houseCanvas.enabled = false;
         }
     }
 }

@@ -7,6 +7,8 @@ public class HouseTriggerZone : MonoBehaviour
     public bool M = false;
     public bool D = false;
     public HouseControls HouseControlsReference;
+    public bool inHouse = false;
+    public Canvas houseCanvas;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,7 +23,8 @@ public class HouseTriggerZone : MonoBehaviour
         if (M && D && inHouseZone)
         {
             Debug.Log("In House Zone and M pressed");
-            SceneManager.LoadScene("House");
+            houseCanvas.enabled = true;
+            inHouse = true;
         }
     }
 
@@ -37,6 +40,7 @@ public class HouseTriggerZone : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             inHouseZone = false;
+            inHouse = false;
         }
     }
 }
