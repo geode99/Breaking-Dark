@@ -1,0 +1,943 @@
+fileFormatVersion: 2
+guid: 842c0bc3e84d48c40b5ab8456e9dec89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6096956745826204303
+    second: M_BROWN SHADEY SPRITE DASH SHEET_0
+  - first:
+      213: -4100767965298950519
+    second: M_BROWN SHADEY SPRITE DASH SHEET_1
+  - first:
+      213: 3571342310702899443
+    second: M_BROWN SHADEY SPRITE DASH SHEET_2
+  - first:
+      213: -1811703243426516264
+    second: M_BROWN SHADEY SPRITE DASH SHEET_3
+  - first:
+      213: -3503381957757327804
+    second: M_BROWN SHADEY SPRITE DASH SHEET_4
+  - first:
+      213: -3377608805901215830
+    second: M_BROWN SHADEY SPRITE DASH SHEET_5
+  - first:
+      213: 2180686576403445872
+    second: M_BROWN SHADEY SPRITE DASH SHEET_6
+  - first:
+      213: -4160581737533543476
+    second: M_BROWN SHADEY SPRITE DASH SHEET_7
+  - first:
+      213: -2077626910832333609
+    second: M_BROWN SHADEY SPRITE DASH SHEET_8
+  - first:
+      213: -7476895125552996693
+    second: M_BROWN SHADEY SPRITE DASH SHEET_9
+  - first:
+      213: -7170614226019631445
+    second: M_BROWN SHADEY SPRITE DASH SHEET_10
+  - first:
+      213: -4424211833228935048
+    second: M_BROWN SHADEY SPRITE DASH SHEET_11
+  - first:
+      213: 5426018809159413719
+    second: M_BROWN SHADEY SPRITE DASH SHEET_12
+  - first:
+      213: 6304071415949904891
+    second: M_BROWN SHADEY SPRITE DASH SHEET_13
+  - first:
+      213: 4929925208366137095
+    second: M_BROWN SHADEY SPRITE DASH SHEET_14
+  - first:
+      213: 8917477187726030652
+    second: M_BROWN SHADEY SPRITE DASH SHEET_15
+  - first:
+      213: -6539333869877595107
+    second: M_BROWN SHADEY SPRITE DASH SHEET_16
+  - first:
+      213: -5122545199900428008
+    second: M_BROWN SHADEY SPRITE DASH SHEET_17
+  - first:
+      213: -5928418353597820907
+    second: M_BROWN SHADEY SPRITE DASH SHEET_18
+  - first:
+      213: 8294017830573318105
+    second: M_BROWN SHADEY SPRITE DASH SHEET_19
+  - first:
+      213: -4573535286589782158
+    second: M_BROWN SHADEY SPRITE DASH SHEET_20
+  - first:
+      213: 8467718223590289213
+    second: M_BROWN SHADEY SPRITE DASH SHEET_21
+  - first:
+      213: -5742697212379538709
+    second: M_BROWN SHADEY SPRITE DASH SHEET_22
+  - first:
+      213: -1089262866881046410
+    second: M_BROWN SHADEY SPRITE DASH SHEET_23
+  - first:
+      213: -6534131925304043046
+    second: M_BROWN SHADEY SPRITE DASH SHEET_24
+  - first:
+      213: 1524144759486471732
+    second: M_BROWN SHADEY SPRITE DASH SHEET_25
+  - first:
+      213: 8591518810680197565
+    second: M_BROWN SHADEY SPRITE DASH SHEET_26
+  - first:
+      213: -7402841279794145583
+    second: M_BROWN SHADEY SPRITE DASH SHEET_27
+  - first:
+      213: -6822634372688480496
+    second: M_BROWN SHADEY SPRITE DASH SHEET_28
+  - first:
+      213: 4673093838154335167
+    second: M_BROWN SHADEY SPRITE DASH SHEET_29
+  - first:
+      213: -6037320800228606765
+    second: M_BROWN SHADEY SPRITE DASH SHEET_30
+  - first:
+      213: -6484371652749393039
+    second: M_BROWN SHADEY SPRITE DASH SHEET_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 2355
+        width: 1332
+        height: 1627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a74e57bddbc9450800000000000000
+      internalID: 6096956745826204303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 3065
+        width: 139
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98efd0a23452717c0800000000000000
+      internalID: -4100767965298950519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 2370
+        width: 1324
+        height: 1615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0e4c8e8e4ff8130800000000000000
+      internalID: 3571342310702899443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 6689
+        y: 2421
+        width: 1895
+        height: 1326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2b329bf798bd6e0800000000000000
+      internalID: -1811703243426516264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 9026
+        y: 2578
+        width: 2492
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446ac5fcbac716fc0800000000000000
+      internalID: -3503381957757327804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 11879
+        y: 2542
+        width: 2518
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7d606bfa25021d0800000000000000
+      internalID: -3377608805901215830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 2940
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0787df033ea534e10800000000000000
+      internalID: 2180686576403445872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 6457
+        y: 2816
+        width: 121
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbe55314f4a246c0800000000000000
+      internalID: -4160581737533543476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 6576
+        y: 2806
+        width: 327
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dceb041559ca23e0800000000000000
+      internalID: -2077626910832333609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 8756
+        y: 2619
+        width: 413
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae50926f7bbc3890800000000000000
+      internalID: -7476895125552996693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_10
+      rect:
+        serializedVersion: 2
+        x: 11582
+        y: 2628
+        width: 492
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baebcbc5a5cdc7c90800000000000000
+      internalID: -7170614226019631445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_11
+      rect:
+        serializedVersion: 2
+        x: 9200
+        y: 2500
+        width: 89
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8704f4537ca0a92c0800000000000000
+      internalID: -4424211833228935048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_12
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 2434
+        width: 756
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfe880db571d4b40800000000000000
+      internalID: 5426018809159413719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_13
+      rect:
+        serializedVersion: 2
+        x: 12311
+        y: 2471
+        width: 1376
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb436a6d8f8c7750800000000000000
+      internalID: 6304071415949904891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_14
+      rect:
+        serializedVersion: 2
+        x: 10265
+        y: 2326
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f38ed6bdc9a6440800000000000000
+      internalID: 4929925208366137095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 463
+        width: 493
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c373f03614e31cb70800000000000000
+      internalID: 8917477187726030652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_16
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 376
+        width: 2525
+        height: 1040
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14f3420e7e9f35a0800000000000000
+      internalID: -6539333869877595107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_17
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 299
+        width: 2490
+        height: 1235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8197d06f74019e8b0800000000000000
+      internalID: -5122545199900428008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_18
+      rect:
+        serializedVersion: 2
+        x: 6307
+        y: 313
+        width: 2282
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51055e1eae60abda0800000000000000
+      internalID: -5928418353597820907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_19
+      rect:
+        serializedVersion: 2
+        x: 8864
+        y: 746
+        width: 196
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df1418f5454a1370800000000000000
+      internalID: 8294017830573318105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_20
+      rect:
+        serializedVersion: 2
+        x: 9258
+        y: 299
+        width: 1927
+        height: 1431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2770a1373e98780c0800000000000000
+      internalID: -4573535286589782158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 11879
+        y: 821
+        width: 102
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f63374cd0638570800000000000000
+      internalID: 8467718223590289213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_22
+      rect:
+        serializedVersion: 2
+        x: 12136
+        y: 305
+        width: 2044
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beadd7bbf47dd40b0800000000000000
+      internalID: -5742697212379538709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_23
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 750
+        width: 161
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6781888913922e0f0800000000000000
+      internalID: -1089262866881046410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_24
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 637
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad996bc12a91255a0800000000000000
+      internalID: -6534131925304043046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_25
+      rect:
+        serializedVersion: 2
+        x: 5916
+        y: 569
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ed67f5599d62510800000000000000
+      internalID: 1524144759486471732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_26
+      rect:
+        serializedVersion: 2
+        x: 8810
+        y: 537
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db10ea7a6d43b3770800000000000000
+      internalID: 8591518810680197565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_27
+      rect:
+        serializedVersion: 2
+        x: 11766
+        y: 497
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d69545f313d34990800000000000000
+      internalID: -7402841279794145583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_28
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 305
+        width: 1380
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01778879f222151a0800000000000000
+      internalID: -6822634372688480496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_29
+      rect:
+        serializedVersion: 2
+        x: 6872
+        y: 308
+        width: 533
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb38141361a2ad040800000000000000
+      internalID: 4673093838154335167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_30
+      rect:
+        serializedVersion: 2
+        x: 12563
+        y: 296
+        width: 301
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcfb4328b0273ca0800000000000000
+      internalID: -6037320800228606765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_BROWN SHADEY SPRITE DASH SHEET_31
+      rect:
+        serializedVersion: 2
+        x: 4090
+        y: 266
+        width: 781
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17382466652e206a0800000000000000
+      internalID: -6484371652749393039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

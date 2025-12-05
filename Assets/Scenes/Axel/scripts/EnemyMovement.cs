@@ -24,7 +24,7 @@ public class EnemyMovement : MonoBehaviour
         // Switch target when reaching a trigger
         if (other.CompareTag("pointA"))
         {
-            Debug.Log("woks");
+            Debug.Log("wiks");
             currentTarget = pointB;
         }
         else if (other.CompareTag("pointB"))
