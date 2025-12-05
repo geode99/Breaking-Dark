@@ -33,13 +33,15 @@ public class PlayerMovement : MonoBehaviour
     public bool isFireflyOn = true;
     private bool isDashing = false;
 
-    public HouseTriggerZone HouseTriggerZoneReference;
-    private bool inHouse = false;
-    public Canvas houseCanvas;
+    public Animator wizAnimator;
+    public Animator ffAnimator;
 
     //HUD Stuff
     public Animator Hud;
     public Canvas pauseMenu;
+    public HouseTriggerZone HouseTriggerZoneReference;
+    private bool inHouse = false;
+    public Canvas houseCanvas;
 
     //Health Script
     public PlayerHealths hp;

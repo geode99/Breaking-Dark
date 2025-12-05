@@ -572,6 +572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectableText: {fileID: 610307723}
   fadeDuration: 2
+  collectedItems: []
+  itemName: 
 --- !u!212 &860408603
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -132035,6 +132037,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1336955509330541367, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4171439139779136149, guid: e8ca546b01e65b2459d02324068e1c0e, type: 3}
     - target: {fileID: 2144129313810166268, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: LightBar
       value: 
