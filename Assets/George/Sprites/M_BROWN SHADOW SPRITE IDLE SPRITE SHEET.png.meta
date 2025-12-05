@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,10 +153,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_0
       rect:
         serializedVersion: 2
-        x: 701
-        y: 6221
-        width: 1845
-        height: 1940
+        x: 0
+        y: 6038
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_1
       rect:
         serializedVersion: 2
-        x: 3488
-        y: 6292
-        width: 1933
-        height: 1890
+        x: 2880
+        y: 6038
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_2
       rect:
         serializedVersion: 2
-        x: 6368
-        y: 6331
-        width: 1931
-        height: 1888
+        x: 5760
+        y: 6038
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_3
       rect:
         serializedVersion: 2
-        x: 699
-        y: 3380
-        width: 1838
-        height: 1933
+        x: 0
+        y: 3019
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_4
       rect:
         serializedVersion: 2
-        x: 3587
-        y: 3347
-        width: 1838
-        height: 1932
+        x: 2880
+        y: 3019
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_5
       rect:
         serializedVersion: 2
-        x: 6382
-        y: 3317
-        width: 1920
-        height: 1941
+        x: 5760
+        y: 3019
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +285,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_6
       rect:
         serializedVersion: 2
-        x: 717
-        y: 245
-        width: 1828
-        height: 1966
+        x: 0
+        y: 0
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_7
       rect:
         serializedVersion: 2
-        x: 3548
-        y: 114
-        width: 1872
-        height: 2044
+        x: 2880
+        y: 0
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_8
       rect:
         serializedVersion: 2
-        x: 6453
-        y: 121
-        width: 1846
-        height: 2004
+        x: 5760
+        y: 0
+        width: 2880
+        height: 3019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,7 +351,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ec716a8d4d693e4428db7ba9dab62a83
     internalID: 0
     vertices: []
     indices: 
@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_0: -4171439139779136149
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_1: 4384101998145236757
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_2: 1717097209100287762
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_3: -784372333695294235
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_4: -7098367476987753209
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_5: -9021585316501965005
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_6: 2368184900840239382
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_7: -166751956665801199
+      M_BROWN SHADOW SPRITE IDLE SPRITE SHEET_8: -6514090967085962956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

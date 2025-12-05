@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -585,7 +585,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      M_BROWN SHADOW  JUMP SPRITE SHEET_0: 5401605247542857497
+      M_BROWN SHADOW  JUMP SPRITE SHEET_1: -7088413272238373607
+      M_BROWN SHADOW  JUMP SPRITE SHEET_10: 2679542022466938196
+      M_BROWN SHADOW  JUMP SPRITE SHEET_11: -8629991086047999365
+      M_BROWN SHADOW  JUMP SPRITE SHEET_12: 5109117106027100448
+      M_BROWN SHADOW  JUMP SPRITE SHEET_13: -7589572397053640300
+      M_BROWN SHADOW  JUMP SPRITE SHEET_14: -8908090012024096705
+      M_BROWN SHADOW  JUMP SPRITE SHEET_15: -7588786433812152388
+      M_BROWN SHADOW  JUMP SPRITE SHEET_16: 7672559248415314492
+      M_BROWN SHADOW  JUMP SPRITE SHEET_17: 4976716028801471204
+      M_BROWN SHADOW  JUMP SPRITE SHEET_2: -4187088078669384033
+      M_BROWN SHADOW  JUMP SPRITE SHEET_3: -5396529006899595415
+      M_BROWN SHADOW  JUMP SPRITE SHEET_4: 3298252553477010932
+      M_BROWN SHADOW  JUMP SPRITE SHEET_5: -4620677580651051640
+      M_BROWN SHADOW  JUMP SPRITE SHEET_6: -7117867435834721667
+      M_BROWN SHADOW  JUMP SPRITE SHEET_7: -8197822613523124170
+      M_BROWN SHADOW  JUMP SPRITE SHEET_8: -7584226110942585585
+      M_BROWN SHADOW  JUMP SPRITE SHEET_9: -7323841625321828946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
