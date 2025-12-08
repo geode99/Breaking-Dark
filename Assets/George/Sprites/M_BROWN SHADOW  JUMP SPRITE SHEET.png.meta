@@ -180,10 +180,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_0
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 3498
-        width: 1748
-        height: 1562
+        x: 0
+        y: 6480
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_1
       rect:
         serializedVersion: 2
-        x: 4549
-        y: 3488
-        width: 1748
-        height: 1563
+        x: 3513
+        y: 6480
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_2
       rect:
         serializedVersion: 2
-        x: 7991
-        y: 3415
-        width: 1819
-        height: 1680
+        x: 7026
+        y: 6480
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_3
       rect:
         serializedVersion: 2
-        x: 11504
-        y: 3415
-        width: 1820
-        height: 1679
+        x: 10539
+        y: 6480
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_4
       rect:
         serializedVersion: 2
-        x: 15083
-        y: 3503
-        width: 1739
-        height: 1555
+        x: 0
+        y: 3240
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +290,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_5
       rect:
         serializedVersion: 2
-        x: 18596
-        y: 3503
-        width: 1739
-        height: 1555
+        x: 3513
+        y: 3240
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +312,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_6
       rect:
         serializedVersion: 2
-        x: 21863
-        y: 3751
-        width: 1945
-        height: 2213
+        x: 7026
+        y: 3240
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_7
       rect:
         serializedVersion: 2
-        x: 25448
-        y: 3712
-        width: 1764
-        height: 2397
+        x: 10539
+        y: 3240
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: M_BROWN SHADOW  JUMP SPRITE SHEET_8
       rect:
         serializedVersion: 2
-        x: 28878
-        y: 3677
-        width: 1968
-        height: 2472
+        x: 0
+        y: 0
+        width: 3513
+        height: 3240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,209 +374,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_9
-      rect:
-        serializedVersion: 2
-        x: 682
-        y: 421
-        width: 2247
-        height: 2573
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ead097b58dc7c5a90800000000000000
-      internalID: -7323841625321828946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_10
-      rect:
-        serializedVersion: 2
-        x: 4195
-        y: 421
-        width: 2247
-        height: 2573
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 455afd9c545af2520800000000000000
-      internalID: 2679542022466938196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_11
-      rect:
-        serializedVersion: 2
-        x: 7146
-        y: 540
-        width: 3314
-        height: 2345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7a4255b4dc1c3880800000000000000
-      internalID: -8629991086047999365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_12
-      rect:
-        serializedVersion: 2
-        x: 10659
-        y: 539
-        width: 3315
-        height: 2346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 029fd9c40fa37e640800000000000000
-      internalID: 5109117106027100448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_13
-      rect:
-        serializedVersion: 2
-        x: 14141
-        y: 471
-        width: 3396
-        height: 2260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 491028cbd1c6ca690800000000000000
-      internalID: -7589572397053640300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_14
-      rect:
-        serializedVersion: 2
-        x: 17654
-        y: 474
-        width: 3392
-        height: 2257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f383916c45b106480800000000000000
-      internalID: -8908090012024096705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_15
-      rect:
-        serializedVersion: 2
-        x: 21398
-        y: 254
-        width: 3124
-        height: 2138
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbfb25012f63fa690800000000000000
-      internalID: -7588786433812152388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_16
-      rect:
-        serializedVersion: 2
-        x: 25324
-        y: 102
-        width: 2180
-        height: 1542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c32dee74cf76a7a60800000000000000
-      internalID: 7672559248415314492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: M_BROWN SHADOW  JUMP SPRITE SHEET_17
-      rect:
-        serializedVersion: 2
-        x: 29069
-        y: 176
-        width: 1818
-        height: 1679
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e254b44cd8d01540800000000000000
-      internalID: 4976716028801471204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f39f34a8c33f26e449c085035c1798d4
     internalID: 0
     vertices: []
     indices: 
@@ -588,14 +390,6 @@ TextureImporter:
     nameFileIdTable:
       M_BROWN SHADOW  JUMP SPRITE SHEET_0: 5401605247542857497
       M_BROWN SHADOW  JUMP SPRITE SHEET_1: -7088413272238373607
-      M_BROWN SHADOW  JUMP SPRITE SHEET_10: 2679542022466938196
-      M_BROWN SHADOW  JUMP SPRITE SHEET_11: -8629991086047999365
-      M_BROWN SHADOW  JUMP SPRITE SHEET_12: 5109117106027100448
-      M_BROWN SHADOW  JUMP SPRITE SHEET_13: -7589572397053640300
-      M_BROWN SHADOW  JUMP SPRITE SHEET_14: -8908090012024096705
-      M_BROWN SHADOW  JUMP SPRITE SHEET_15: -7588786433812152388
-      M_BROWN SHADOW  JUMP SPRITE SHEET_16: 7672559248415314492
-      M_BROWN SHADOW  JUMP SPRITE SHEET_17: 4976716028801471204
       M_BROWN SHADOW  JUMP SPRITE SHEET_2: -4187088078669384033
       M_BROWN SHADOW  JUMP SPRITE SHEET_3: -5396529006899595415
       M_BROWN SHADOW  JUMP SPRITE SHEET_4: 3298252553477010932
@@ -603,7 +397,6 @@ TextureImporter:
       M_BROWN SHADOW  JUMP SPRITE SHEET_6: -7117867435834721667
       M_BROWN SHADOW  JUMP SPRITE SHEET_7: -8197822613523124170
       M_BROWN SHADOW  JUMP SPRITE SHEET_8: -7584226110942585585
-      M_BROWN SHADOW  JUMP SPRITE SHEET_9: -7323841625321828946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
