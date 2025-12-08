@@ -13,8 +13,8 @@ public class Collectables : MonoBehaviour
     //private Color endColor;
     private Color resetColor;
     public float fadeDuration = 2f;
-    public List<string> collectedItems = new List<string>();
-    public string itemName;
+    public List<Image> collectedItems = new List<Image>();
+    public Image item;
     //float timer = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -46,7 +46,8 @@ public class Collectables : MonoBehaviour
             Destroy(gameObject);
             FadeOut();
             collectableText.color = resetColor;
-            collectedItems.Add(itemName);
+            collectedItems.Add(item);
+            Debug.Log(collectedItems.Count);
         }
     }
 }
