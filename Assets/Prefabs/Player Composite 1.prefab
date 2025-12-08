@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 1336955509330541367}
   - component: {fileID: 4372952311085018647}
   - component: {fileID: 8623575637047803482}
+  - component: {fileID: 7723592697913319169}
   m_Layer: 7
   m_Name: wizard
   m_TagString: Player
@@ -216,7 +217,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2629412219184275118, guid: 0f970227a19563844b84ed40d46fc53d, type: 3}
+  m_Sprite: {fileID: -4171439139779136149, guid: e8ca546b01e65b2459d02324068e1c0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -292,7 +293,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.99, y: 6.67}
+    oldSize: {x: 9.601443, y: 10.063334}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -300,6 +301,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.232544, y: 6.2782125}
   m_EdgeRadius: 0
+--- !u!95 &7723592697913319169
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031399509888085240}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b1f473cd9c25e24192aaeb59ad94887, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2592127697650045207
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,10 +869,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   isFireflyOn: 1
-  HouseTriggerZoneReference: {fileID: 0}
-  houseCanvas: {fileID: 0}
+  wizAnimator: {fileID: 7723592697913319169}
+  ffAnimator: {fileID: 4653906281759654689}
   Hud: {fileID: 0}
   pauseMenu: {fileID: 0}
+  HouseTriggerZoneReference: {fileID: 0}
+  houseCanvas: {fileID: 0}
   hp: {fileID: 2144129313810166268}
   drainAmount: 1
   fireflylight: {fileID: 1150354108415225404}

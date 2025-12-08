@@ -83,6 +83,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         isGrounded= Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
+        if (isGrounded)
+        {
+            wizAnimator.SetBool("isJump", false);
+        }
 
         if(isDashing == false)
         {
@@ -129,6 +133,7 @@ public class PlayerMovement : MonoBehaviour
             if (isGrounded == true || isWizard == false)
             {
                 rb2d.linearVelocityY = jumpForce;
+                wizAnimator.SetBool("isJump", true);
             }
         }
     }
@@ -170,10 +175,20 @@ public class PlayerMovement : MonoBehaviour
         {
             isDashing = true;
             currentMovementSpeed += dashForce;
+            if (isWizard)
+            {
+                wizAnimator.SetBool("isDashing", true);
+            }
+            else
+            {
+                ffAnimator.SetBool("isDashing", true);
+            }
         }
         if (ctx.ReadValue<float>() == 0)
         {            
             isDashing = false;
+            wizAnimator.SetBool("isDashing", false);
+            ffAnimator.SetBool("isDashing", false);
         }
     }
 
