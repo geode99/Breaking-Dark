@@ -166,7 +166,7 @@ Transform:
   m_GameObject: {fileID: 1031399509888085240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.066, y: -0.045, z: 0}
+  m_LocalPosition: {x: -1.066, y: 0.3, z: 0}
   m_LocalScale: {x: 0.16412413, y: 0.16954732, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -289,7 +289,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.3787279, y: -0.19589376}
+  m_Offset: {x: 0.4612341, y: -1.6287713}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -299,7 +299,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.232544, y: 6.2782125}
+  m_Size: {x: 5.912468, y: 5.7841177}
   m_EdgeRadius: 0
 --- !u!95 &7723592697913319169
 Animator:
@@ -860,24 +860,24 @@ MonoBehaviour:
   wizard: {fileID: 4372952311085018647}
   wizardSR: {fileID: 1336955509330541367}
   fireflySR: {fileID: 4594263897026452139}
-  isWizard: 1
-  isGrounded: 0
+  wizAnimator: {fileID: 7723592697913319169}
+  ffAnimator: {fileID: 4653906281759654689}
+  fireflylight: {fileID: 1150354108415225404}
   boxCastOrigin: {fileID: 2932693395146248607}
-  boxCastOffset: {x: -0.18, y: -1.65, z: 0}
-  boxCastSize: {x: 1.39, y: 0.44}
+  boxCastOffset: {x: 0.08, y: -2.16, z: 0}
+  boxCastSize: {x: 2.24, y: 0.46}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  isFireflyOn: 1
-  wizAnimator: {fileID: 7723592697913319169}
-  ffAnimator: {fileID: 4653906281759654689}
   Hud: {fileID: 0}
   pauseMenu: {fileID: 0}
   HouseTriggerZoneReference: {fileID: 0}
   houseCanvas: {fileID: 0}
   hp: {fileID: 2144129313810166268}
   drainAmount: 1
-  fireflylight: {fileID: 1150354108415225404}
+  isWizard: 1
+  isGrounded: 0
+  isFireflyOn: 1
 --- !u!114 &369347346844124523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,6 +1199,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   M: 0
   D: 0
+  inHouseZone: 0
+  HouseTriggerZoneReference: {fileID: 0}
+  inHouse: 0
+  houseCanvas: {fileID: 0}
+  collectablesReference: {fileID: 0}
+  collectedItems: []
+  collectableObjects:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &7286912770856555733
 GameObject:
   m_ObjectHideFlags: 0

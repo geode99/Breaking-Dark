@@ -5,6 +5,7 @@ using UnityEngine.Rendering.Universal;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("editable movement values")]
     public float speed = 5.0f;
     private float jumpForce;
     public float wizardJumpForce = 15.0f;
@@ -14,29 +15,28 @@ public class PlayerMovement : MonoBehaviour
     public float dashForce = 10.0f;
     private float currentMovementSpeed;
 
+    [Header("rigid bodies")]
     private Rigidbody2D rb2d;
     public Rigidbody2D firefly;
     public Rigidbody2D wizard;
 
+    [Header("rendering")]
     private SpriteRenderer playerSR;
     public SpriteRenderer wizardSR;
     public SpriteRenderer fireflySR;
+    public Animator wizAnimator;
+    public Animator ffAnimator;
+    //Light Script
+    public Light2D fireflylight;
 
-    public bool isWizard = true;
-    public bool isGrounded;
-
+    [Header("jump related")]
     public Transform boxCastOrigin;
     public Vector3 boxCastOffset;
     public Vector2 boxCastSize;
     public LayerMask groundLayer;
 
-    public bool isFireflyOn = true;
-    private bool isDashing = false;
-
-    public Animator wizAnimator;
-    public Animator ffAnimator;
-
     //HUD Stuff
+    [Header("HUD")]
     public Animator Hud;
     public Canvas pauseMenu;
     public HouseTriggerZone HouseTriggerZoneReference;
@@ -44,11 +44,15 @@ public class PlayerMovement : MonoBehaviour
     public Canvas houseCanvas;
 
     //Health Script
+    [Header("health")]
     public PlayerHealths hp;
     public float drainAmount = 1f;
 
-    //Light Script
-    public Light2D fireflylight;
+    [Header("ignore all these  DO NOT EDIT")]
+    public bool isWizard = true;
+    public bool isGrounded;
+    public bool isFireflyOn = true;
+    private bool isDashing = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -83,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         isGrounded= Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
-        if (isGrounded)
+        if (rb2d.linearVelocityY <= 0)
         {
             wizAnimator.SetBool("isJump", false);
         }
@@ -142,6 +146,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ctx.ReadValue<float>() == 0)
         {
+            wizAnimator.SetBool("isSwitching", true);
+            wizAnimator.SetBool("isSwitching", false);
             isWizard = !isWizard;
             if (isWizard)
             {

@@ -132351,10 +132351,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2046802929}
     - target: {fileID: 1360536762627453695, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: collectableObjects.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1360536762627453695, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: 'collectableObjects.Array.data[0]'
       value: 
       objectReference: {fileID: 252419967}
