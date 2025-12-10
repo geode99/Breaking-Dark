@@ -4,6 +4,7 @@ using UnityEngine;
 public class AOECrystalEffect : MonoBehaviour
 {
     public float drain = 4f;
+    public float enemyDamage = 3f;
 
     public PlayerHealths hp;
     public PlayerMovement IsWiz;
@@ -21,7 +22,18 @@ public class AOECrystalEffect : MonoBehaviour
     {
         if (other)
         {
-            if (other.tag == "BadCrystal")
+            if (other.CompareTag("Enemy"))
+            {
+                if(IsWiz.isWizard)
+                {
+                    hp.FireflyHealth -= Time.deltaTime * drain * enemyDamage;
+                }
+                else
+                {
+                    hp.ShadyHealth -= Time.deltaTime * drain * enemyDamage;
+                }
+            }
+            else if (other.CompareTag("BadCrystal"))
             {
                 if (!IsWiz.isWizard)
                 {
@@ -32,7 +44,7 @@ public class AOECrystalEffect : MonoBehaviour
                     hp.ShadyHealth += Time.deltaTime * drain;
                 }
             }
-            else if (other.tag == "GoodCrystal")
+            else if (other.CompareTag("GoodCrystal"))
             {
                 if (IsWiz.isWizard)
                 {
@@ -48,11 +60,17 @@ public class AOECrystalEffect : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        other = collision;
+        if(collision.CompareTag("BadCrystal") || collision.CompareTag("GoodCrystal") || collision.CompareTag("Enemy"))
+        {
+            other = collision;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        other = null;
+        if (collision.CompareTag("BadCrystal") || collision.CompareTag("GoodCrystal") || collision.CompareTag("Enemy"))
+        {
+            other = null;
+        }
     }
 }
