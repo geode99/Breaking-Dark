@@ -8,6 +8,7 @@ TagManager:
   - pointB
   - BadCrystal
   - GoodCrystal
+  - Enemy
   layers:
   - Default
   - TransparentFX
