@@ -11,9 +11,11 @@ public class HouseControls : MonoBehaviour
     public bool inHouseZone = false;
     public HouseTriggerZone HouseTriggerZoneReference;
     public bool inHouse = false;
+    private bool collected = false;
     public Canvas houseCanvas;
     public Collectables collectablesReference;
-    public List<Image> collectedItems;
+    public List<Collectables> collectedItemsReference;
+    private List<Image> collectedItems;
     public List<Image> collectableObjects;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,7 +38,19 @@ public class HouseControls : MonoBehaviour
             Debug.Log("In House Zone and M pressed");
             houseCanvas.enabled = true;
             inHouse = true;
+            ListCollection();
             ShowCollection();
+        }
+    }
+
+    private void ListCollection()
+    {
+        foreach(Collectables item in collectedItemsReference)
+        {
+            if (item.collected)
+            {
+                collectedItems.Add(item.item);
+            }
         }
     }
 
@@ -47,6 +61,7 @@ public class HouseControls : MonoBehaviour
         {
             //Debug.Log(item);
             item.enabled = true;
+            collectableObjects.Find(x => x == item).enabled = true;
         }
     }
 
