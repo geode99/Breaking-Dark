@@ -151,7 +151,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ctx.ReadValue<float>() == 0)
         {
-            wizAnimator.SetBool("isSwitching", true);
+            wizAnimator.SetTrigger("Switch");
+
             isWizard = !isWizard;
             if (isWizard)
             {
@@ -168,7 +169,6 @@ public class PlayerMovement : MonoBehaviour
                 jumpForce = fireflyJumpForce;
             }
         }
-        wizAnimator.SetBool("isSwitching", false);
     }
 
     public void OnOff(InputAction.CallbackContext ctx)
