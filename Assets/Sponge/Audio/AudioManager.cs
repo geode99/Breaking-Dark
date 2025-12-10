@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header ("Audio Source")]
+    [SerializeField] AudioSource musicSource;
+    [SerializeField] AudioSource SFXSource;
+    [Header ("Audio Clip")]
+    public AudioClip background;
+    public AudioClip buttons;
+    public AudioClip dash;
+    public AudioClip hurt;
+    public AudioClip jump;
+    public AudioClip portal;
+    public AudioClip change;
 }
