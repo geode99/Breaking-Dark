@@ -9,6 +9,7 @@ TagManager:
   - BadCrystal
   - GoodCrystal
   - Enemy
+  - Audio
   layers:
   - Default
   - TransparentFX
