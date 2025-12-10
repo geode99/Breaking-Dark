@@ -8,6 +8,8 @@ TagManager:
   - pointB
   - BadCrystal
   - GoodCrystal
+  - Enemy
+  - Audio
   layers:
   - Default
   - TransparentFX
