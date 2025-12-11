@@ -53,6 +53,15 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     public bool isFireflyOn = true;
     private bool isDashing = false;
+
+    //Audio stuff
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();  
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
