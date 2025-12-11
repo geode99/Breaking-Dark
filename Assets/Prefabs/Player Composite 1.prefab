@@ -614,6 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drain: 4
+  enemyDamage: 3
   hp: {fileID: 2144129313810166268}
   IsWiz: {fileID: 2824567277640931327}
 --- !u!114 &3484001311433311132
@@ -1204,8 +1205,12 @@ MonoBehaviour:
   inHouse: 0
   houseCanvas: {fileID: 0}
   collectablesReference: {fileID: 0}
-  collectedItems: []
+  collectedItemsReference:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   collectableObjects:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!1 &7286912770856555733
