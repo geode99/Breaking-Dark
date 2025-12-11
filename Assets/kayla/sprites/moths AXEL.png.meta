@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: ef7216155c352504caf825a031f9650f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 76569737463824415
+    second: moths AXEL_0
+  - first:
+      213: 4881770630947311533
+    second: moths AXEL_1
+  - first:
+      213: -3643515628409398636
+    second: moths AXEL_2
+  - first:
+      213: 6083805129579537135
+    second: moths AXEL_3
+  - first:
+      213: 9122201315369460107
+    second: moths AXEL_4
+  - first:
+      213: -23958275145327976
+    second: moths AXEL_5
+  - first:
+      213: 1953442570626434290
+    second: moths AXEL_6
+  - first:
+      213: -1430381064220351696
+    second: moths AXEL_7
+  - first:
+      213: -7043875061635727541
+    second: moths AXEL_8
+  - first:
+      213: 1636608856087160236
+    second: moths AXEL_9
+  - first:
+      213: -1374182712330230949
+    second: moths AXEL_10
+  - first:
+      213: 5847750953641300795
+    second: moths AXEL_11
+  - first:
+      213: 1831174682257888999
+    second: moths AXEL_12
+  - first:
+      213: 8360272551089982776
+    second: moths AXEL_13
+  - first:
+      213: -195253427342133217
+    second: moths AXEL_14
+  - first:
+      213: -7157968887957637910
+    second: moths AXEL_15
+  - first:
+      213: 1277843964929922916
+    second: moths AXEL_16
+  - first:
+      213: -3225642047896878416
+    second: moths AXEL_17
+  - first:
+      213: -4824963036948129099
+    second: moths AXEL_18
+  - first:
+      213: -1827888992998217757
+    second: moths AXEL_19
+  - first:
+      213: 2283313774218510310
+    second: moths AXEL_20
+  - first:
+      213: -3006696976341772408
+    second: moths AXEL_21
+  - first:
+      213: 1081038158971932965
+    second: moths AXEL_22
+  - first:
+      213: -1716210654348399983
+    second: moths AXEL_23
+  - first:
+      213: 81643700789572895
+    second: moths AXEL_24
+  - first:
+      213: 9222404915997071589
+    second: moths AXEL_25
+  - first:
+      213: 7848887211320228869
+    second: moths AXEL_26
+  - first:
+      213: -8671169034069574002
+    second: moths AXEL_27
+  - first:
+      213: 1412752231689524454
+    second: moths AXEL_28
+  - first:
+      213: 8810039852005906000
+    second: moths AXEL_29
+  - first:
+      213: 868504156339288331
+    second: moths AXEL_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moths AXEL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2125
+        height: 3006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4879052a67a0ac844b857cba3b61d7d7
+      internalID: 1308652837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8e72a44b3e7742a4185b4703830f2291
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      moths AXEL_0: 1308652837
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
