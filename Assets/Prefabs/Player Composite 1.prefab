@@ -166,7 +166,7 @@ Transform:
   m_GameObject: {fileID: 1031399509888085240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.066, y: 0.3, z: 0}
+  m_LocalPosition: {x: -0.939, y: -0.475, z: 0}
   m_LocalScale: {x: 0.16412413, y: 0.16954732, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -289,17 +289,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.4612341, y: -1.6287713}
+  m_Offset: {x: 0.4612341, y: 2.0789797}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.15}
     oldSize: {x: 9.601443, y: 10.063334}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.912468, y: 5.7841177}
+  m_Size: {x: 5.912468, y: 5.637276}
   m_EdgeRadius: 0
 --- !u!95 &7723592697913319169
 Animator:
@@ -614,6 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drain: 4
+  enemyDamage: 3
   hp: {fileID: 2144129313810166268}
   IsWiz: {fileID: 2824567277640931327}
 --- !u!114 &3484001311433311132
@@ -864,8 +865,8 @@ MonoBehaviour:
   ffAnimator: {fileID: 4653906281759654689}
   fireflylight: {fileID: 1150354108415225404}
   boxCastOrigin: {fileID: 2932693395146248607}
-  boxCastOffset: {x: 0.08, y: -2.16, z: 0}
-  boxCastSize: {x: 2.24, y: 0.46}
+  boxCastOffset: {x: 0.23, y: -0.21, z: 0}
+  boxCastSize: {x: 2.78, y: 0.46}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -1204,8 +1205,12 @@ MonoBehaviour:
   inHouse: 0
   houseCanvas: {fileID: 0}
   collectablesReference: {fileID: 0}
-  collectedItems: []
+  collectedItemsReference:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   collectableObjects:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!1 &7286912770856555733

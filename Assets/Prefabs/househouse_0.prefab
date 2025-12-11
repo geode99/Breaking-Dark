@@ -148,6 +148,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inHouseZone: 0
-  M: 0
-  D: 0
-  HouseControlsReference: {fileID: 0}
+  inHouse: 0

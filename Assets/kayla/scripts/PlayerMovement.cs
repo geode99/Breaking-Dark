@@ -90,9 +90,14 @@ public class PlayerMovement : MonoBehaviour
         if (rb2d.linearVelocityY <= 0)
         {
             wizAnimator.SetBool("isJump", false);
+            wizAnimator.SetBool("isFall", true);
+        }
+        if (isGrounded)
+        {
+            wizAnimator.SetBool("isFall", false);
         }
 
-        if(isDashing == false)
+        if (isDashing == false)
         {
             currentMovementSpeed = speed;
         }
@@ -134,7 +139,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ctx.ReadValue<float>() == 1)
         {
-            if (isGrounded == true || isWizard == false)
+            if (isGrounded == true && isWizard)
             {
                 rb2d.linearVelocityY = jumpForce;
                 wizAnimator.SetBool("isJump", true);
@@ -146,8 +151,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ctx.ReadValue<float>() == 0)
         {
-            wizAnimator.SetBool("isSwitching", true);
-            wizAnimator.SetBool("isSwitching", false);
+            wizAnimator.SetTrigger("Switch");
+
             isWizard = !isWizard;
             if (isWizard)
             {
