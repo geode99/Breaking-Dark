@@ -10,6 +10,7 @@ TagManager:
   - GoodCrystal
   - Enemy
   - Audio
+  - Portal
   layers:
   - Default
   - TransparentFX
