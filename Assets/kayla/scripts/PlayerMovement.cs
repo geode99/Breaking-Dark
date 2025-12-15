@@ -152,6 +152,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb2d.linearVelocityY = jumpForce;
                 wizAnimator.SetBool("isJump", true);
+                audioManager.PlaySFX(audioManager.jump);
             }
         }
     }
@@ -161,6 +162,7 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 0)
         {
             wizAnimator.SetTrigger("Switch");
+            audioManager.PlaySFX(audioManager.change);
 
             isWizard = !isWizard;
             if (isWizard)
