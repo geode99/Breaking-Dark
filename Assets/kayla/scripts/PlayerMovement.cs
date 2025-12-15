@@ -95,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
             //isFacingRight = false;
         }
 
-        isGrounded= Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
+        isGrounded = Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
         if (rb2d.linearVelocityY <= 0)
         {
             wizAnimator.SetBool("isJump", false);

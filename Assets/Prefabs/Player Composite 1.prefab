@@ -687,6 +687,7 @@ GameObject:
   - component: {fileID: 8639318748005074666}
   - component: {fileID: 1360536762627453695}
   - component: {fileID: 8614464970472490363}
+  - component: {fileID: 1771759044661391023}
   m_Layer: 7
   m_Name: Player Composite 1
   m_TagString: Untagged
@@ -1227,6 +1228,20 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
 --- !u!114 &8614464970472490363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6120219105793679953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517623ab9c00ffa4995e639ffa24bd02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Scene 2
+  Health: {fileID: 2144129313810166268}
+--- !u!114 &1771759044661391023
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

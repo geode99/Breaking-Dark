@@ -1055,21 +1055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Composite
       objectReference: {fileID: 0}
-    - target: {fileID: 8623575637047803482, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_Size.y
-      value: 6.275502
-      objectReference: {fileID: 0}
-    - target: {fileID: 8623575637047803482, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_Offset.y
-      value: 2.7320914
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6120219105793679953, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1109958440}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
 --- !u!1001 &852624567
 PrefabInstance:
@@ -1661,36 +1650,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1109958430 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6120219105793679953, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-  m_PrefabInstance: {fileID: 836109276}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1109958432 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2144129313810166268, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-  m_PrefabInstance: {fileID: 836109276}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109958430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c9442873edff064393765ddf8fe9067, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1109958440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109958430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517623ab9c00ffa4995e639ffa24bd02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: Scene 2
-  Health: {fileID: 1109958432}
 --- !u!1 &1118617496
 GameObject:
   m_ObjectHideFlags: 0
