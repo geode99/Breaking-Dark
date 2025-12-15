@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      M_BROWN SIGN ESC_0: 368676048065070915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
