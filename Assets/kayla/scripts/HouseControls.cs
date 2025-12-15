@@ -24,7 +24,6 @@ public class HouseControls : MonoBehaviour
         {
             item.enabled = false;
         }
-        houseCanvas.enabled = false;
     }
 
     // Update is called once per frame
