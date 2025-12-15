@@ -200,10 +200,12 @@ public class PlayerMovement : MonoBehaviour
             if (isWizard)
             {
                 wizAnimator.SetBool("isDashing", true);
+                audioManager.PlaySFX(audioManager.dash);
             }
             else
             {
                 ffAnimator.SetBool("isDashing", true);
+                audioManager.PlaySFX(audioManager.dash);
             }
         }
         if (ctx.ReadValue<float>() == 0)
