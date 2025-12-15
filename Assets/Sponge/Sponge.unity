@@ -6535,7 +6535,7 @@ GameObject:
   - component: {fileID: 897280779}
   m_Layer: 0
   m_Name: audio manager
-  m_TagString: Enemy
+  m_TagString: Audio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6554,6 +6554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1115443611}
   SFXSource: {fileID: 621851595}
+  menu: {fileID: 0}
   background: {fileID: 0}
   buttons: {fileID: 8300000, guid: 10aa896a61358d646b915c933a02d4b4, type: 3}
   dash: {fileID: 8300000, guid: ed1c73e0ee2473d438f1f1028fb8edca, type: 3}
@@ -6588,11 +6589,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 257837538132081681, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18020737
+      value: 9.87
       objectReference: {fileID: 0}
     - target: {fileID: 257837538132081681, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7943257
+      value: -2.26
       objectReference: {fileID: 0}
     - target: {fileID: 257837538132081681, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6629,6 +6630,14 @@ PrefabInstance:
     - target: {fileID: 6120219105793679953, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: m_Name
       value: Player Composite 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8623575637047803482, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
+      propertyPath: m_Size.y
+      value: 6.848102
+      objectReference: {fileID: 0}
+    - target: {fileID: 8623575637047803482, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.4024727
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
