@@ -39,9 +39,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("HUD")]
     public Animator Hud;
     public Canvas pauseMenu;
-    public HouseTriggerZone HouseTriggerZoneReference;
-    private bool inHouse = false;
-    public Canvas houseCanvas;
+    //public HouseTriggerZone HouseTriggerZoneReference;
+    //private bool inHouse = false;
+    //public Canvas houseCanvas;
 
     //Health Script
     [Header("health")]
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("ignore all these  DO NOT EDIT")]
     public bool isWizard = true;
     public bool isGrounded;
-    public bool isFireflyOn = true;
+    public bool isFireflyOn = false;
     private bool isDashing = false;
 
     //Audio stuff
@@ -70,13 +70,12 @@ public class PlayerMovement : MonoBehaviour
         jumpForce = wizardJumpForce;
         currentMovementSpeed = speed;
         pauseMenu.enabled = false;
-        houseCanvas.enabled = false;
+        fireflylight.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        inHouse = HouseTriggerZoneReference.inHouse;
         if (!isWizard && isFireflyOn) { 
             hp.FireflyHealth -= Time.deltaTime * drainAmount;
         }
@@ -95,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
             //isFacingRight = false;
         }
 
-        isGrounded= Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
+        isGrounded = Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
         if (rb2d.linearVelocityY <= 0)
         {
             wizAnimator.SetBool("isJump", false);
@@ -218,17 +217,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void Pause(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1 && inHouse == false)
+        if (ctx.ReadValue<float>() == 1)
         {
             pauseMenu.enabled = true;
         }
     }
 
-    public void EscapeHouse(InputAction.CallbackContext ctx)
-        {
-        if (ctx.ReadValue<float>() == 1 && inHouse == true)
-        {
-            houseCanvas.enabled = false;
-        }
-    }
 }

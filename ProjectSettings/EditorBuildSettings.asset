@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/kayla/scenes/testing.unity
     guid: b839c8cbcca531946afdffce3f5acebf
   - enabled: 1
@@ -38,9 +38,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/creditsScenes/Rose.unity
     guid: 5a20d63b32d1cc84ca0febde47d6ac39
-  - enabled: 1
+  - enabled: 0
     path: Assets/kayla/scenes/House.unity
     guid: b4b18c4316c297342bba94c9fc366c85
+  - enabled: 1
+    path: Assets/Scenes/Axel/Levels/Tutorial.unity
+    guid: afda44187216a6d44b1c7518d170ee85
+  - enabled: 1
+    path: Assets/Scenes/Axel/Levels/Level 2.unity
+    guid: 2d49e1208e901de49994756c332bf255
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 7667cd40305d4a54f8aa28688f428dd9, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
