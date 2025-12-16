@@ -12,6 +12,14 @@ public class Sceneloader : MonoBehaviour
         
     }
 
+    //Audio stuff
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -25,6 +33,7 @@ public class Sceneloader : MonoBehaviour
         if (collision.gameObject.tag == "Portal")
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+            audioManager.PlaySFX(audioManager.portal);
         }
     }
 }
