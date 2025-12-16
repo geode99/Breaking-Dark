@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("ignore all these  DO NOT EDIT")]
     public bool isWizard = true;
     public bool isGrounded;
-    public bool isFireflyOn = true;
+    public bool isFireflyOn = false;
     private bool isDashing = false;
 
     //Audio stuff
@@ -70,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         jumpForce = wizardJumpForce;
         currentMovementSpeed = speed;
         pauseMenu.enabled = false;
+        fireflylight.enabled = false;
     }
 
     // Update is called once per frame

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e5d6e82813ee87e4f8d24916a7cb66dc
+guid: 27d583022bd761c40bdf6774fa3795fe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8803646196641586545
-    second: Columns_for_Background_NoBricks_0
+      213: 8047888765697780521
+    second: '{36F49B9F-DAF5-4CC2-83D1-5BC1BD5BD466}_0'
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,12 +37,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Columns_for_Background_NoBricks_0
+      name: '{36F49B9F-DAF5-4CC2-83D1-5BC1BD5BD466}_0'
       rect:
         serializedVersion: 2
         x: 0
-        y: 182
-        width: 1920
-        height: 798
+        y: 0
+        width: 418
+        height: 746
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17d5a077295dc2a70800000000000000
-      internalID: 8803646196641586545
+      spriteID: 92be54f5138dfaf60800000000000000
+      internalID: 8047888765697780521
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c69e0424e166d544eaf9a334e5993411
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Columns_for_Background_NoBricks_0: 8803646196641586545
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
