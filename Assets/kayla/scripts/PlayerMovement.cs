@@ -40,11 +40,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("HUD")]
     public Animator Hud;
     public Canvas pauseMenu;
-    //public HouseTriggerZone HouseTriggerZoneReference;
-    //private bool inHouse = false;
-    //public Canvas houseCanvas;
 
-    //Health Script
     [Header("health")]
     public PlayerHealths hp;
     public float drainAmount = 1f;
@@ -131,7 +127,31 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCastOrigin.position + boxCastOffset, boxCastSize);
     }
-   
+    public void Dash(InputAction.CallbackContext ctx)
+    {
+        if (ctx.ReadValue<float>() == 1)
+        {
+            isDashing = true;
+            currentMovementSpeed += dashForce;
+            if (isWizard)
+            {
+                wizAnimator.SetBool("isDashing", true);
+                audioManager.PlaySFX(audioManager.dash);
+            }
+            else
+            {
+                ffAnimator.SetBool("isDashing", true);
+                audioManager.PlaySFX(audioManager.dash);
+            }
+        }
+        if (ctx.ReadValue<float>() == 0)
+        {
+            isDashing = false;
+            wizAnimator.SetBool("isDashing", false);
+            ffAnimator.SetBool("isDashing", false);
+        }
+    }
+    
     public void Move(InputAction.CallbackContext ctx)
     {
         if (isWizard)
@@ -191,30 +211,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Dash(InputAction.CallbackContext ctx)
-    {
-        if (ctx.ReadValue<float>() == 1)
-        {
-            isDashing = true;
-            currentMovementSpeed += dashForce;
-            if (isWizard)
-            {
-                wizAnimator.SetBool("isDashing", true);
-                audioManager.PlaySFX(audioManager.dash);
-            }
-            else
-            {
-                ffAnimator.SetBool("isDashing", true);
-                audioManager.PlaySFX(audioManager.dash);
-            }
-        }
-        if (ctx.ReadValue<float>() == 0)
-        {            
-            isDashing = false;
-            wizAnimator.SetBool("isDashing", false);
-            ffAnimator.SetBool("isDashing", false);
-        }
-    }
+    
 
     public void Pause(InputAction.CallbackContext ctx)
     {
