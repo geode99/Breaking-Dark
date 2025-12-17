@@ -994,6 +994,7 @@ MonoBehaviour:
   jump: {fileID: 8300000, guid: e7af7ae04a8dc674395f060895b9c9fd, type: 3}
   portal: {fileID: 8300000, guid: 8295aa7c65a37524ba9f91e3617375bb, type: 3}
   change: {fileID: 8300000, guid: fdb8989adadf15f4aaeb9cb835876a31, type: 3}
+  restart: {fileID: 0}
 --- !u!4 &1220651888
 Transform:
   m_ObjectHideFlags: 0
