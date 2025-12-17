@@ -26,7 +26,8 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer fireflySR;
     public Animator wizAnimator;
     public Animator ffAnimator;
-    //Light Script
+    
+    [Header("light")]
     public Light2D fireflylight;
 
     [Header("jump related")]
@@ -76,13 +77,15 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isWizard && isFireflyOn) { 
-            hp.FireflyHealth -= Time.deltaTime * drainAmount;
-        }
-        ;
         rb2d.linearVelocityX = _movement;
         Hud.SetBool("IsWiz", isWizard);
         float horizontalInput = Input.GetAxisRaw("Horizontal");
+        isGrounded = Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
+        
+        if (!isWizard && isFireflyOn)
+        {
+            hp.FireflyHealth -= Time.deltaTime * drainAmount;
+        }
         if (horizontalInput > 0)
         {
             playerSR.flipX = false;
@@ -94,7 +97,6 @@ public class PlayerMovement : MonoBehaviour
             //isFacingRight = false;
         }
 
-        isGrounded = Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
         if (rb2d.linearVelocityY <= 0)
         {
             wizAnimator.SetBool("isJump", false);
@@ -118,8 +120,7 @@ public class PlayerMovement : MonoBehaviour
         if (pauseMenu.enabled)
         {
             Time.timeScale = 0f;
-        }
-        else
+        }else
         {
             Time.timeScale = 1f;
         }
