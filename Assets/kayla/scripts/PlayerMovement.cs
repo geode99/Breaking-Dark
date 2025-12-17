@@ -54,6 +54,14 @@ public class PlayerMovement : MonoBehaviour
     //Audio stuff
     AudioManager audioManager;
 
+    // queued input flags (callbacks only set these)
+    private bool queuedJump = false;
+    private bool queuedDashInput = false;
+    private bool prevQueuedDashInput = false;
+
+    // store raw move input so movement scaling happens after dash is processed
+    private Vector2 movementInput = Vector2.zero;
+
     private void Awake()
     {
         audioManager = FindFirstObjectByType<AudioManager>();  
@@ -73,6 +81,20 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Process queued inputs first (priority ordering happens here)
+        ProcessQueuedInputs();
+
+        // Now compute movement values using the (possibly) updated currentMovementSpeed.
+        // This ensures dash (which modifies currentMovementSpeed) is applied before movement scaling.
+        if (isWizard)
+        {
+            _movement = movementInput.x * currentMovementSpeed;
+        }
+        else
+        {
+            _movementVector = movementInput * currentMovementSpeed;
+        }
+
         rb2d.linearVelocityX = _movement;
         Hud.SetBool("IsWiz", isWizard);
         float horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -122,15 +144,25 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    private void ProcessQueuedInputs()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(boxCastOrigin.position + boxCastOffset, boxCastSize);
-    }
-    public void Dash(InputAction.CallbackContext ctx)
-    {
-        if (ctx.ReadValue<float>() == 1)
+        // Priority: Jump > Dash
+        if (queuedJump)
         {
+            // consume the jump request immediately
+            queuedJump = false;
+            if (isGrounded == true && isWizard)
+            {
+                rb2d.linearVelocityY = jumpForce;
+                wizAnimator.SetBool("isJump", true);
+                audioManager.PlaySFX(audioManager.jump);
+            }
+        }
+
+        // Handle dash input state changes after jump (so jump wins when both happen same frame)
+        if (queuedDashInput && !prevQueuedDashInput)
+        {
+            // dash started
             isDashing = true;
             currentMovementSpeed += dashForce;
             if (isWizard)
@@ -144,36 +176,42 @@ public class PlayerMovement : MonoBehaviour
                 audioManager.PlaySFX(audioManager.dash);
             }
         }
-        if (ctx.ReadValue<float>() == 0)
+        else if (!queuedDashInput && prevQueuedDashInput)
         {
+            // dash ended
             isDashing = false;
             wizAnimator.SetBool("isDashing", false);
             ffAnimator.SetBool("isDashing", false);
+            // reset movement speed (keep simple: reset to base speed)
+            currentMovementSpeed = speed;
         }
+
+        prevQueuedDashInput = queuedDashInput;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(boxCastOrigin.position + boxCastOffset, boxCastSize);
+    }
+
+    // Callbacks now only record intent (no immediate action). Update() processes them in priority order.
+    public void Dash(InputAction.CallbackContext ctx)
+    {
+        queuedDashInput = ctx.ReadValue<float>() == 1;
     }
     
     public void Move(InputAction.CallbackContext ctx)
     {
-        if (isWizard)
-        {
-            _movement = ctx.ReadValue<Vector2>().x * currentMovementSpeed;
-        }
-        if (isWizard == false)
-        {
-            _movementVector = ctx.ReadValue<Vector2>() * currentMovementSpeed;
-        }
+        // record raw input; scaling is deferred to Update so dash can modify speed first
+        movementInput = ctx.ReadValue<Vector2>();
     }
 
     public void Jump(InputAction.CallbackContext ctx)
     {
         if (ctx.ReadValue<float>() == 1)
         {
-            if (isGrounded == true && isWizard)
-            {
-                rb2d.linearVelocityY = jumpForce;
-                wizAnimator.SetBool("isJump", true);
-                audioManager.PlaySFX(audioManager.jump);
-            }
+            queuedJump = true;
         }
     }
 
@@ -210,8 +248,6 @@ public class PlayerMovement : MonoBehaviour
             fireflylight.enabled = !fireflylight.enabled;
         }
     }
-
-    
 
     public void Pause(InputAction.CallbackContext ctx)
     {
