@@ -13,17 +13,10 @@ public class EnemyMovement : MonoBehaviour
 
     //reference for destroying enemy
     public PlayerMovement playerMovementRefence;
-    //public bool hitFF = false;
     private bool isWizard = true;
     private bool isFireflyOn = false;
-
-    //Audio stuff
-    AudioManager audioManager;
-
-    private void Awake()
-    {
-        audioManager = FindFirstObjectByType<AudioManager>();
-    }
+    public Animator enemyAnimator;
+    public float delay = 0.5f;
 
     void Start()
     {
@@ -60,9 +53,8 @@ public class EnemyMovement : MonoBehaviour
         //destroy enemy if firefly on
         else if (other.CompareTag("Player") && isWizard == false && isFireflyOn)
         {
-            Destroy(gameObject);
-            audioManager.PlaySFX(audioManager.enemydeath);
-            //hitFF = true;
+            enemyAnimator.SetTrigger("dead");   
+            Destroy(gameObject, delay);
         }
     }
 }
