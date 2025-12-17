@@ -17,6 +17,14 @@ public class EnemyMovement : MonoBehaviour
     private bool isWizard = true;
     private bool isFireflyOn = false;
 
+    //Audio stuff
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
+
     void Start()
     {
         currentTarget = pointA;
@@ -53,6 +61,7 @@ public class EnemyMovement : MonoBehaviour
         else if (other.CompareTag("Player") && isWizard == false && isFireflyOn)
         {
             Destroy(gameObject);
+            audioManager.PlaySFX(audioManager.enemydeath);
             //hitFF = true;
         }
     }
