@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip jump;
     public AudioClip portal;
     public AudioClip change;
+    public AudioClip restart;
 
     private void Start()
     {
