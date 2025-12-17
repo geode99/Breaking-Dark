@@ -24,7 +24,7 @@ public class AOECrystalEffect : MonoBehaviour
         {
             if (other.CompareTag("Enemy"))
             {
-                if(IsWiz.isWizard)
+                if(!IsWiz.isWizard)
                 {
                     hp.FireflyHealth -= Time.deltaTime * drain * enemyDamage;
                 }
