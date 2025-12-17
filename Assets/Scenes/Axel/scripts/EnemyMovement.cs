@@ -9,6 +9,13 @@ public class EnemyMovement : MonoBehaviour
     private Transform currentTarget;
 
     private SpriteRenderer enemySR;
+    public bool FlipDir = false;
+
+    //reference for destroying enemy
+    public PlayerMovement playerMovementRefence;
+    //public bool hitFF = false;
+    private bool isWizard = true;
+    private bool isFireflyOn = false;
 
     void Start()
     {
@@ -21,15 +28,9 @@ public class EnemyMovement : MonoBehaviour
         // Move toward the current target
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, speed * Time.deltaTime);
 
-        //flip based on move direction
-        if (transform.position.x > 0)
-        {
-            enemySR.flipX = false;
-        }
-        else if (transform.position.x < 0)
-        {
-            enemySR.flipX = true;
-        }
+        //update vars
+        isWizard = playerMovementRefence.isWizard;
+        isFireflyOn = playerMovementRefence.isFireflyOn;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -39,11 +40,20 @@ public class EnemyMovement : MonoBehaviour
         {
             Debug.Log("wiks");
             currentTarget = pointB;
+            enemySR.flipX = !FlipDir;
         }
         else if (other.CompareTag("pointB"))
         {
             Debug.Log("womps");
             currentTarget = pointA;
+            enemySR.flipX = FlipDir;
+        }
+
+        //destroy enemy if firefly on
+        else if (other.CompareTag("Player") && isWizard == false && isFireflyOn)
+        {
+            Destroy(gameObject);
+            //hitFF = true;
         }
     }
 }
