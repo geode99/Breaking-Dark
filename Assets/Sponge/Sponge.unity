@@ -6972,6 +6972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: collectables 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3047486579469993263, guid: 30ed546cb89d0d246b90b7c0ac98cf32, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4876453455628076267, guid: 30ed546cb89d0d246b90b7c0ac98cf32, type: 3}
       propertyPath: m_TagString
       value: Untagged

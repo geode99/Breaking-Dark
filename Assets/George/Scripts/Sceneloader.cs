@@ -26,6 +26,7 @@ public class Sceneloader : MonoBehaviour
         if (Health.ShadyHealth <= 0)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("Tutorial");
+            audioManager.PlaySFX(audioManager.restart);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
