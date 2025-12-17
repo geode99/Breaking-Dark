@@ -1400,7 +1400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff593bbb1d0a034aaaf13b7424131f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: testing
+  sceneToLoad: Tutorial
 --- !u!1 &2047722775
 GameObject:
   m_ObjectHideFlags: 0
