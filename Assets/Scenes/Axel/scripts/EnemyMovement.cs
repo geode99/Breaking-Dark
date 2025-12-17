@@ -18,6 +18,13 @@ public class EnemyMovement : MonoBehaviour
     public Animator enemyAnimator;
     public float delay = 0.5f;
 
+    //Audio stuff
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
+
     void Start()
     {
         currentTarget = pointA;
@@ -55,6 +62,7 @@ public class EnemyMovement : MonoBehaviour
         {
             enemyAnimator.SetTrigger("dead");   
             Destroy(gameObject, delay);
+            audioManager.PlaySFX(audioManager.enemydeath);
         }
     }
 }

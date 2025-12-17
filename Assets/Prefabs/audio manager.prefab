@@ -315,3 +315,4 @@ MonoBehaviour:
   portal: {fileID: 8300000, guid: 8295aa7c65a37524ba9f91e3617375bb, type: 3}
   change: {fileID: 8300000, guid: 24c13ac03102a7345a5df450de1d0e16, type: 3}
   restart: {fileID: 8300000, guid: 8163d9f6b6afa7d4882ab05178b73818, type: 3}
+  enemydeath: {fileID: 8300000, guid: 0095b9a780fb25d45bc8c5bf313e73c0, type: 3}
