@@ -317,3 +317,4 @@ MonoBehaviour:
   restart: {fileID: 8300000, guid: 8163d9f6b6afa7d4882ab05178b73818, type: 3}
   enemydeath: {fileID: 8300000, guid: 0095b9a780fb25d45bc8c5bf313e73c0, type: 3}
   fireflylight: {fileID: 8300000, guid: 817e66f90504c0b4ea17839c1b386da9, type: 3}
+  house: {fileID: 8300000, guid: 165da69188b4c824ebe8e46380c4877e, type: 3}
