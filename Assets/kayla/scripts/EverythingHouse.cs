@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class EverythingHouse : MonoBehaviour
 {
-    public HouseTriggerZone HouseTriggerZoneReference;
+    public HouseControls HouseControlsReference;
     private bool inHouse = false;
     public Canvas houseCanvas;
     public Canvas pauseMenu;
@@ -16,7 +16,7 @@ public class EverythingHouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inHouse = HouseTriggerZoneReference.inHouse;
+        inHouse = HouseControlsReference.inHouse;
     }
 
     public void EscapeHouse(InputAction.CallbackContext ctx)
@@ -24,14 +24,15 @@ public class EverythingHouse : MonoBehaviour
         if (ctx.ReadValue<float>() == 1 && inHouse == true)
         {
             houseCanvas.enabled = false;
+            inHouse = false;
+        }
+        if (ctx.ReadValue<float>() == 1 && inHouse == false)
+        {
+            pauseMenu.enabled = true;
         }
     }
 
     public void Pause(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1 && inHouse == false)
-        {
-            pauseMenu.enabled = true;
-        }
     }
 }
