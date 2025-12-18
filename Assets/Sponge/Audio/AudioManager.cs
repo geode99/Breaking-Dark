@@ -16,6 +16,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip change;
     public AudioClip restart;
     public AudioClip enemydeath;
+    public AudioClip fireflylight;
+    public AudioClip house;
 
     private void Start()
     {

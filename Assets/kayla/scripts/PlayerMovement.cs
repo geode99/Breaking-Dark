@@ -245,6 +245,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isFireflyOn = !isFireflyOn;
             fireflylight.enabled = !fireflylight.enabled;
+            audioManager.PlaySFX(audioManager.fireflylight);
         }
     }
 
