@@ -26,6 +26,13 @@ public class HouseControls : MonoBehaviour
         }
     }
 
+    //Audio stuff
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -39,6 +46,7 @@ public class HouseControls : MonoBehaviour
             inHouse = true;
             ListCollection();
             ShowCollection();
+            audioManager.PlaySFX(audioManager.house);
         }
     }
 
