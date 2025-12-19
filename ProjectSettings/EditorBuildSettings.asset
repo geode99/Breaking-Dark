@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Axel/Levels/Level 2.unity
     guid: 2d49e1208e901de49994756c332bf255
+  - enabled: 1
+    path: Assets/Scenes/Axel/Levels/Level 3.unity
+    guid: 1b702bdea47cc114e9f2770cffae2011
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 7667cd40305d4a54f8aa28688f428dd9, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
