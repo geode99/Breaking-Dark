@@ -30,7 +30,6 @@ public class HouseControls : MonoBehaviour
     void Update()
     {
         collectedItems = collectablesReference.collectedItems;
-        inHouse = HouseTriggerZoneReference.inHouse;
         inHouseZone = HouseTriggerZoneReference.inHouseZone;
 
         if (M && D && inHouseZone)

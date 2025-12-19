@@ -97,19 +97,18 @@ public class PlayerMovement : MonoBehaviour
 
         rb2d.linearVelocityX = _movement;
         Hud.SetBool("IsWiz", isWizard);
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
         isGrounded = Physics2D.BoxCast(boxCastOrigin.position + boxCastOffset, boxCastSize, 0, Vector2.zero, 0, groundLayer);
         
         if (!isWizard && isFireflyOn)
         {
             hp.FireflyHealth -= Time.deltaTime * drainAmount;
         }
-        if (horizontalInput > 0)
+        if (movementInput.x > 0)
         {
             playerSR.flipX = false;
             //isFacingRight = true;
         }
-        else if (horizontalInput < 0)
+        else if (movementInput.x < 0)
         {
             playerSR.flipX = true;
             //isFacingRight = false;

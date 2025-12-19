@@ -22,16 +22,9 @@ public class AOECrystalEffect : MonoBehaviour
     {
         if (other)
         {
-            if (other.CompareTag("Enemy"))
+            if (other.CompareTag("Enemy")&& IsWiz.isWizard)
             {
-                if(!IsWiz.isWizard)
-                {
-                    hp.FireflyHealth -= Time.deltaTime * drain * enemyDamage;
-                }
-                else
-                {
                     hp.ShadyHealth -= Time.deltaTime * drain * enemyDamage;
-                }
             }
             else if (other.CompareTag("BadCrystal"))
             {

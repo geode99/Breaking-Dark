@@ -10,8 +10,7 @@ public class CameraCenter : MonoBehaviour
     public float zoom = 5.0f;
     public float maxZoom = 10.0f;
     public float minZoom = 5.0f;
-    public float xmax = 100.0f;
-    public float ymax = 100.0f;
+    public float max = 100.0f;
     private bool isWizard;
     public float CameraSpeed;
     public PlayerMovement playerMovementReference;
@@ -34,7 +33,8 @@ public class CameraCenter : MonoBehaviour
         if (camera.orthographicSize > maxZoom)
         {
             camera.orthographicSize = maxZoom;
-            if ((wizard.transform.position.x + firefly.transform.position.x) > xmax || (wizard.transform.position.y + firefly.transform.position.y) > ymax)
+
+            if (Vector2.Distance(wizard.transform.position * new Vector2(1, 9 / 16f), firefly.transform.position * new Vector2(1, 9 / 16f)) > max)
             { 
                 if (isWizard && wizard.transform.position.y != camera.transform.position.y)
                 {
