@@ -28,7 +28,7 @@ public class ButtonTrigger : MonoBehaviour
         if (isFireflyOn)
         {
             door.isTrigger = true;
-            doorSR.color = new Color(1f, 1f, 1f, 0.3f);
+            doorSR.color = new Color(1f, 1f, 1f, 0.1f);
             flame.enabled = true;
         }
     }
@@ -36,6 +36,6 @@ public class ButtonTrigger : MonoBehaviour
     public void ButtonOn()
     {
         door.isTrigger = true;
-        doorSR.color = new Color(1f, 1f, 1f, 0.3f);
+        doorSR.color = new Color(1f, 1f, 1f, 0.1f);
     }
 }
