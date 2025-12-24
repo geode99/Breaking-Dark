@@ -231,7 +231,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 5140269779022324391, guid: fd2622cb978db6445b80efdfb4d4ca67, type: 3}
-  m_Color: {r: 0.43476486, g: 0, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_ComponentVersion: 2
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.688
   m_Color: {r: 0.31665906, g: 0.28773582, b: 1, a: 1}
   m_Intensity: 12.54
   m_LightVolumeIntensity: 1
@@ -279,10 +279,10 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 360
-  m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 2.2415674
-  m_PointLightOuterRadius: 4.422412
+  m_PointLightInnerAngle: 359.99997
+  m_PointLightOuterAngle: 359.99997
+  m_PointLightInnerRadius: 0.98
+  m_PointLightOuterRadius: 3.09
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -354,6 +354,8 @@ MonoBehaviour:
   door: {fileID: 6842707759890591296}
   doorSR: {fileID: 5818611843263925435}
   playerMovementReference: {fileID: 0}
+  openedDoorText: {fileID: 0}
+  fadeDuration: 2
 --- !u!114 &88539917580991934
 MonoBehaviour:
   m_ObjectHideFlags: 0
