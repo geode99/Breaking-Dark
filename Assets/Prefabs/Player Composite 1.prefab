@@ -617,6 +617,8 @@ MonoBehaviour:
   enemyDamage: 3
   hp: {fileID: 2144129313810166268}
   IsWiz: {fileID: 2824567277640931327}
+  shadySR: {fileID: 4594263897026452139}
+  walterSR: {fileID: 1336955509330541367}
 --- !u!114 &3484001311433311132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,6 +1107,8 @@ MonoBehaviour:
   enemyDamage: 6
   hp: {fileID: 2144129313810166268}
   IsWiz: {fileID: 2824567277640931327}
+  shadySR: {fileID: 1336955509330541367}
+  walterSR: {fileID: 4594263897026452139}
 --- !u!58 &6986992120860534280
 CircleCollider2D:
   m_ObjectHideFlags: 0

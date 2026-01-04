@@ -1,10 +1,6 @@
-using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-using NUnit.Framework;
-using System.Collections.Generic;
+
 
 public class DoorText : MonoBehaviour
 {
