@@ -2,17 +2,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class WinSceneloader : MonoBehaviour
+public class Sceneloader : MonoBehaviour
 {
     public string scene;
     public PlayerHealths Health;
     public Canvas deathCanvas;
-    public Canvas win;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         deathCanvas.enabled = false;
-        win.enabled = false;
     }
 
     //Audio stuff
@@ -37,8 +35,7 @@ public class WinSceneloader : MonoBehaviour
     {
         if (collision.gameObject.tag == "Portal")
         {
-            win.enabled = true;
-            //UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
             audioManager.PlaySFX(audioManager.portal);
         }
     }
