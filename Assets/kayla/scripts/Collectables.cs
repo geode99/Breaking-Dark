@@ -15,11 +15,13 @@ public class Collectables : MonoBehaviour
     public float fadeDuration = 2f;
     public List<Image> collectedItems = new List<Image>();
     public Image item;
+    public bool collected;
     //float timer = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         collectableText.enabled = false;
+        collected = false;
         startColor = collectableText.color;
         //endColor = new Color(startColor.r, startColor.g, startColor.b, 0f);
         resetColor = new Color(startColor.r, startColor.g, startColor.b, 1f);
@@ -43,6 +45,7 @@ public class Collectables : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collectableText.enabled = true;
+            collected = true;
             Destroy(gameObject);
             FadeOut();
             collectableText.color = resetColor;

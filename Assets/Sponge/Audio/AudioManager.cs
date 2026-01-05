@@ -13,4 +13,19 @@ public class AudioManager : MonoBehaviour
     public AudioClip jump;
     public AudioClip portal;
     public AudioClip change;
+    public AudioClip restart;
+    public AudioClip enemydeath;
+    public AudioClip fireflylight;
+    public AudioClip house;
+
+    private void Start()
+    {
+        musicSource.clip = background;
+        musicSource.Play();
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        SFXSource.PlayOneShot(clip);
+    }
 }

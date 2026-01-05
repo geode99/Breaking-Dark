@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: f006ddc9950b1364a954d2e20e76558f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6833625895916543673
+    second: credits names_0
+  - first:
+      213: -6444429153495555512
+    second: credits names_1
+  - first:
+      213: 5222496115108847075
+    second: credits names_2
+  - first:
+      213: 2216051549535398855
+    second: credits names_3
+  - first:
+      213: 1148923345592566573
+    second: credits names_4
+  - first:
+      213: 5733052091798071661
+    second: credits names_5
+  - first:
+      213: -1344241749542091819
+    second: credits names_6
+  - first:
+      213: 311202868202013434
+    second: credits names_7
+  - first:
+      213: -3022928743596963001
+    second: credits names_8
+  - first:
+      213: -5208849834185415984
+    second: credits names_9
+  - first:
+      213: 1820582772059643877
+    second: credits names_10
+  - first:
+      213: -6145754824147540444
+    second: credits names_11
+  - first:
+      213: 8727039358534214458
+    second: credits names_12
+  - first:
+      213: -7518335322834634951
+    second: credits names_13
+  - first:
+      213: -6758190593987153176
+    second: credits names_14
+  - first:
+      213: -2574282232216017028
+    second: credits names_15
+  - first:
+      213: -956853390988239652
+    second: credits names_16
+  - first:
+      213: 3507129963747847527
+    second: credits names_17
+  - first:
+      213: 6508896754689083332
+    second: credits names_18
+  - first:
+      213: 7872239016439262266
+    second: credits names_19
+  - first:
+      213: 5848667549522496261
+    second: credits names_20
+  - first:
+      213: -3948907364054578339
+    second: credits names_21
+  - first:
+      213: -2506734777147075605
+    second: credits names_22
+  - first:
+      213: -1824946650232815471
+    second: credits names_23
+  - first:
+      213: 2811118425446329741
+    second: credits names_24
+  - first:
+      213: -2260476321603472933
+    second: credits names_25
+  - first:
+      213: -3555285275519121811
+    second: credits names_26
+  - first:
+      213: -5262818193640939398
+    second: credits names_27
+  - first:
+      213: 4282323802029520653
+    second: credits names_28
+  - first:
+      213: 6932713384283627601
+    second: credits names_29
+  - first:
+      213: 1798281983046198413
+    second: credits names_30
+  - first:
+      213: 4657191197657111255
+    second: credits names_31
+  - first:
+      213: -3755869717506254842
+    second: credits names_32
+  - first:
+      213: -7646874463927927129
+    second: credits names_33
+  - first:
+      213: 6262406813856939656
+    second: credits names_34
+  - first:
+      213: -9010681217894707102
+    second: credits names_35
+  - first:
+      213: -323489652916210283
+    second: credits names_36
+  - first:
+      213: -5315073602360209762
+    second: credits names_37
+  - first:
+      213: -3852663947226373061
+    second: credits names_38
+  - first:
+      213: -7109804862571574425
+    second: credits names_39
+  - first:
+      213: 2533547710043785587
+    second: credits names_40
+  - first:
+      213: -2208698884356615070
+    second: credits names_41
+  - first:
+      213: 5797701516660702412
+    second: credits names_42
+  - first:
+      213: 713949548701891697
+    second: credits names_43
+  - first:
+      213: -952441308877532321
+    second: credits names_44
+  - first:
+      213: 8201489339082033258
+    second: credits names_45
+  - first:
+      213: 6296800260389324592
+    second: credits names_46
+  - first:
+      213: -1145876341593333660
+    second: credits names_47
+  - first:
+      213: -2368570381478144026
+    second: credits names_48
+  - first:
+      213: 1797212173277606062
+    second: credits names_49
+  - first:
+      213: 7974512822734255120
+    second: credits names_50
+  - first:
+      213: -5235310719032495543
+    second: credits names_51
+  - first:
+      213: 7289128776841772367
+    second: credits names_52
+  - first:
+      213: 7159998921545631276
+    second: credits names_53
+  - first:
+      213: 1815850485138708548
+    second: credits names_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: credits names_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1559
+        width: 3072
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741ebf924751a21a0800000000000000
+      internalID: -6833625895916543673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits names_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 3072
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842e9b534d9c096a0800000000000000
+      internalID: -6444429153495555512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits names_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 3072
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed9be5fb880a7840800000000000000
+      internalID: 5222496115108847075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits names_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 3072
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbe206a42ff0ce10800000000000000
+      internalID: 2216051549535398855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94f75d18cab1058409cf0d3a3e4ebd89
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      credits names_0: -6833625895916543673
+      credits names_1: -6444429153495555512
+      credits names_2: 5222496115108847075
+      credits names_3: 2216051549535398855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

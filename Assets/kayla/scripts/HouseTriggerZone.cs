@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class HouseTriggerZone : MonoBehaviour
 {
     public bool inHouseZone = false;
-    public bool inHouse = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,7 +33,6 @@ public class HouseTriggerZone : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             inHouseZone = false;
-            inHouse = false;
         }
     }
 }

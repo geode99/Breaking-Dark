@@ -11,6 +11,10 @@ public class AOECrystalEffect : MonoBehaviour
 
     private Collider2D other;
 
+    public SpriteRenderer shadySR;
+    public SpriteRenderer walterSR;
+    public bool colorflash = true;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,24 +24,29 @@ public class AOECrystalEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        walterSR.color = Color.white;
+        shadySR.color = Color.white;
         if (other)
         {
-            if (other.CompareTag("Enemy"))
+            if (other.CompareTag("Enemy")&& IsWiz.isWizard)
             {
-                if(IsWiz.isWizard)
-                {
-                    hp.FireflyHealth -= Time.deltaTime * drain * enemyDamage;
-                }
-                else
-                {
-                    hp.ShadyHealth -= Time.deltaTime * drain * enemyDamage;
-                }
+                hp.ShadyHealth -= Time.deltaTime * drain * enemyDamage;
             }
             else if (other.CompareTag("BadCrystal"))
             {
                 if (!IsWiz.isWizard)
                 {
                     hp.FireflyHealth -= Time.deltaTime * drain;
+                    if (colorflash)
+                    {
+                        walterSR.color = new Color(0.7843138f, 0.1921569f, 0.8901961f);
+                        colorflash = false;
+                    }
+                    else
+                    {
+                        walterSR.color = Color.white;
+                        colorflash = true;
+                    }
                 }
                 else
                 {
@@ -49,9 +58,14 @@ public class AOECrystalEffect : MonoBehaviour
                 if (IsWiz.isWizard)
                 {
                     hp.ShadyHealth -= Time.deltaTime * drain;
-                }
-                else
-                {
+                    if (colorflash){
+                        shadySR.color = new Color(0.9960785f, 0.8039216f, 0.482353f);
+                        colorflash = false;
+                    }else{
+                        shadySR.color = Color.white;
+                        colorflash = true;
+                    }
+                }else{
                     hp.FireflyHealth += Time.deltaTime * drain;
                 }
             }
