@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c557194a0dc838a4891e886f2d1e79e7
+guid: d49e370c9c01508409410a2dcd7afca2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -31747198003381939
-    second: SIGN SPRITE KILL_0
+      213: 694667660461661902
+    second: M_BROWN SIGN death by yellow_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SIGN SPRITE KILL_0
+      name: M_BROWN SIGN death by yellow_0
       rect:
         serializedVersion: 2
         x: 252
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d49f46477163f8ff0800000000000000
-      internalID: -31747198003381939
+      spriteID: eced4c28e84f3a900800000000000000
+      internalID: 694667660461661902
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SIGN SPRITE KILL_0: -31747198003381939
+      M_BROWN SIGN death by yellow_0: 694667660461661902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
