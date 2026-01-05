@@ -83,9 +83,6 @@ public class PlayerMovement : MonoBehaviour
     {
         // Process queued inputs first (priority ordering happens here)
         ProcessQueuedInputs();
-
-        // Now compute movement values using the (possibly) updated currentMovementSpeed.
-        // This ensures dash (which modifies currentMovementSpeed) is applied before movement scaling.
         if (isWizard)
         {
             _movement = movementInput.x * currentMovementSpeed;
@@ -127,9 +124,11 @@ public class PlayerMovement : MonoBehaviour
         if (isDashing == false)
         {
             currentMovementSpeed = speed;
+        }else{
+            hp.ShadyHealth -= Time.deltaTime * dashDrainAmount;
         }
 
-        if(isWizard == false)
+        if (isWizard == false)
         {
             rb2d.linearVelocity = _movementVector;
         }
