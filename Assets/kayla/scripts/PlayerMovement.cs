@@ -44,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("health")]
     public PlayerHealths hp;
     public float drainAmount = 1f;
+    public float dashDrainAmount = 4f;
 
     [Header("ignore all these  DO NOT EDIT")]
     public bool isWizard = true;
@@ -83,9 +84,6 @@ public class PlayerMovement : MonoBehaviour
     {
         // Process queued inputs first (priority ordering happens here)
         ProcessQueuedInputs();
-
-        // Now compute movement values using the (possibly) updated currentMovementSpeed.
-        // This ensures dash (which modifies currentMovementSpeed) is applied before movement scaling.
         if (isWizard)
         {
             _movement = movementInput.x * currentMovementSpeed;
@@ -127,9 +125,14 @@ public class PlayerMovement : MonoBehaviour
         if (isDashing == false)
         {
             currentMovementSpeed = speed;
+        }else{
+            if(isWizard)
+                hp.ShadyHealth -= Time.deltaTime * dashDrainAmount;
+            else
+                hp.FireflyHealth -= Time.deltaTime * dashDrainAmount;
         }
 
-        if(isWizard == false)
+        if (isWizard == false)
         {
             rb2d.linearVelocity = _movementVector;
         }
@@ -162,18 +165,36 @@ public class PlayerMovement : MonoBehaviour
         if (queuedDashInput && !prevQueuedDashInput)
         {
             // dash started
-            isDashing = true;
-            currentMovementSpeed += dashForce;
-            if (isWizard)
-            {
-                wizAnimator.SetBool("isDashing", true);
-                audioManager.PlaySFX(audioManager.dash);
+            if (isWizard && hp.ShadyHealth >= 20) {
+                isDashing = true;
+                currentMovementSpeed += dashForce;
+                if (isWizard)
+                {
+                    wizAnimator.SetBool("isDashing", true);
+                    audioManager.PlaySFX(audioManager.dash);
+                }
+                else
+                {
+                    ffAnimator.SetBool("isDashing", true);
+                    audioManager.PlaySFX(audioManager.dash);
+                }
             }
-            else
+            if (!isWizard && hp.FireflyHealth >= 20)
             {
-                ffAnimator.SetBool("isDashing", true);
-                audioManager.PlaySFX(audioManager.dash);
+                isDashing = true;
+                currentMovementSpeed += dashForce;
+                if (isWizard)
+                {
+                    wizAnimator.SetBool("isDashing", true);
+                    audioManager.PlaySFX(audioManager.dash);
+                }
+                else
+                {
+                    ffAnimator.SetBool("isDashing", true);
+                    audioManager.PlaySFX(audioManager.dash);
+                }
             }
+
         }
         else if (!queuedDashInput && prevQueuedDashInput)
         {

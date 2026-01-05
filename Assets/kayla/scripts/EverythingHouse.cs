@@ -31,8 +31,4 @@ public class EverythingHouse : MonoBehaviour
             pauseMenu.enabled = true;
         }
     }
-
-    public void Pause(InputAction.CallbackContext ctx)
-    {
-    }
 }

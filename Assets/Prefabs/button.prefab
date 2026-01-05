@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5532159387165298445}
   - component: {fileID: 5818611843263925435}
   - component: {fileID: 6842707759890591296}
+  - component: {fileID: 8926454032106730564}
   m_Layer: 0
   m_Name: button door (1)
   m_TagString: Untagged
@@ -27,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 5421891598073812526}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.59, y: -17.47, z: 0}
-  m_LocalScale: {x: 1.48126, y: 1.48126, z: 3.7558854}
+  m_LocalPosition: {x: 13.91, y: -19.89, z: 0}
+  m_LocalScale: {x: 0.97644, y: 0.97644, z: 2.475863}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7495542415404199891}
@@ -134,6 +135,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.8216705, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &8926454032106730564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5421891598073812526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5eae36449f62704d9fa8ed7420bf903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorText: {fileID: 0}
+  fadeDuration: 3
 --- !u!1 &8276025746982490220
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,7 +231,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 5140269779022324391, guid: fd2622cb978db6445b80efdfb4d4ca67, type: 3}
-  m_Color: {r: 0.43476486, g: 0, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -241,7 +256,7 @@ MonoBehaviour:
   m_ComponentVersion: 2
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.688
   m_Color: {r: 0.31665906, g: 0.28773582, b: 1, a: 1}
   m_Intensity: 12.54
   m_LightVolumeIntensity: 1
@@ -264,10 +279,10 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 360
-  m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 2.2415674
-  m_PointLightOuterRadius: 4.422412
+  m_PointLightInnerAngle: 359.99997
+  m_PointLightOuterAngle: 359.99997
+  m_PointLightInnerRadius: 0.98
+  m_PointLightOuterRadius: 3.09
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -339,6 +354,8 @@ MonoBehaviour:
   door: {fileID: 6842707759890591296}
   doorSR: {fileID: 5818611843263925435}
   playerMovementReference: {fileID: 0}
+  openedDoorText: {fileID: 0}
+  fadeDuration: 2
 --- !u!114 &88539917580991934
 MonoBehaviour:
   m_ObjectHideFlags: 0
