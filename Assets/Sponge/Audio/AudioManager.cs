@@ -6,7 +6,6 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
     [Header ("Audio Clip")]
-    public AudioClip menu;
     public AudioClip background;
     public AudioClip buttons;
     public AudioClip dash;
