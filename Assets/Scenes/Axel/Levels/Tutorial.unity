@@ -1092,14 +1092,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1086959839752133943, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_RenderPostProcessing
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1150354108415225404, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_Intensity
-      value: 0.26
-      objectReference: {fileID: 0}
     - target: {fileID: 2144129313810166268, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: LightBar
       value: 
@@ -1116,26 +1108,6 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 852624568}
-    - target: {fileID: 3795139328017239534, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3795139328017239534, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5518868
-      objectReference: {fileID: 0}
-    - target: {fileID: 3795139328017239534, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_Color.r
-      value: 0.8023541
-      objectReference: {fileID: 0}
-    - target: {fileID: 3795139328017239534, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_Intensity
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 4594263897026452139, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6120219105793679953, guid: afcc5d28a0345fe4a987cb83a21b87f0, type: 3}
       propertyPath: m_Name
       value: Player Composite

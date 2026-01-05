@@ -116,7 +116,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -403,7 +403,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -3913654224700340602, guid: 5debc98e008c8f34f86b2a83e6f5d201, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.25
   m_Color: {r: 1, g: 0.98765695, b: 0.5330188, a: 1}
-  m_Intensity: 1.8
+  m_Intensity: 0.26
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -619,6 +619,7 @@ MonoBehaviour:
   IsWiz: {fileID: 2824567277640931327}
   shadySR: {fileID: 4594263897026452139}
   walterSR: {fileID: 1336955509330541367}
+  colorflash: 1
 --- !u!114 &3484001311433311132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1109,6 +1110,7 @@ MonoBehaviour:
   IsWiz: {fileID: 2824567277640931327}
   shadySR: {fileID: 1336955509330541367}
   walterSR: {fileID: 4594263897026452139}
+  colorflash: 1
 --- !u!58 &6986992120860534280
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1304,8 +1306,8 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.1
+  m_Color: {r: 0.8023541, g: 0.5518868, b: 1, a: 1}
+  m_Intensity: 0.32
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 000000007dc2532a
