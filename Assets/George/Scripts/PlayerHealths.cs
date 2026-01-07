@@ -19,10 +19,6 @@ public class PlayerHealths : MonoBehaviour
             ShadyHealth += FireflyHealth;
             FireflyHealth = 0;
         }  
-        if(ShadyHealth < 0){
-            FireflyHealth += ShadyHealth;
-            ShadyHealth = 0;
-        }
         if(ShadyHealth > 100f){
             ShadyHealth = 100f;
         }

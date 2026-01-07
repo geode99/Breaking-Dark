@@ -532,7 +532,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.25
   m_Color: {r: 1, g: 0.98765695, b: 0.5330188, a: 1}
-  m_Intensity: 0.26
+  m_Intensity: 0.9
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -686,10 +686,10 @@ GameObject:
   - component: {fileID: 765604371156133819}
   - component: {fileID: 2144129313810166268}
   - component: {fileID: 8639318748005074666}
-  - component: {fileID: 8614464970472490363}
   - component: {fileID: 375532879471741105}
   - component: {fileID: 6986992120860534280}
   - component: {fileID: 6907611693688085821}
+  - component: {fileID: 901174363946209378}
   m_Layer: 7
   m_Name: Player Composite 1
   m_TagString: Untagged
@@ -805,6 +805,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   hp: {fileID: 2144129313810166268}
   drainAmount: 1
+  dashDrainAmount: 4
   isWizard: 1
   isGrounded: 0
   isFireflyOn: 0
@@ -1078,20 +1079,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerMovement: {fileID: 2824567277640931327}
---- !u!114 &8614464970472490363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6120219105793679953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517623ab9c00ffa4995e639ffa24bd02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: Level 2
-  Health: {fileID: 2144129313810166268}
 --- !u!114 &375532879471741105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1174,6 +1161,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &901174363946209378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6120219105793679953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517623ab9c00ffa4995e639ffa24bd02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Level 2
+  Health: {fileID: 2144129313810166268}
 --- !u!1 &7286912770856555733
 GameObject:
   m_ObjectHideFlags: 0

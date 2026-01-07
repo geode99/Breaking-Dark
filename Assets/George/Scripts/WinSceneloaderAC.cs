@@ -9,11 +9,13 @@ public class WinSceneloaderAC : MonoBehaviour
     public Canvas deathCanvas;
     public Canvas win;
     public PlayerMovement PlayerMovement;
+    public GameObject VP;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         deathCanvas.enabled = false;
         win.enabled = false;
+        VP.SetActive(false);
     }
 
     //Audio stuff
@@ -38,6 +40,7 @@ public class WinSceneloaderAC : MonoBehaviour
     {
         if (collision.gameObject.tag == "Portal" && PlayerMovement.isWizard)
         {
+            VP.SetActive(true);
             win.enabled = true;
             //UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
             audioManager.PlaySFX(audioManager.portal);
